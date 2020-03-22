@@ -1,0 +1,3649 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]>
+<html id="ie6" lang="zh-CN">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="zh-CN">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="zh-CN">
+<![endif]-->
+<!--[if gte IE 9]>
+<html id="ie9" lang="zh-CN">
+<![endif]-->
+<!--[if !IE ]><!-->
+<html id="firefox" lang="zh-CN">
+<!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' hm.baidu.com *.alicdn.com *.aliyuncs.com; ">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="_csrf" content="60666108-dcc8-474c-92e5-bbe0f0eb78f9" />
+<meta name="_csrf_header" content="X-XSRF-TOKEN" />
+<link rel="shortcut icon" href="/qntcloud/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="/qntcloud/resource/plugin/bootstrap-3.3.7/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="/qntcloud/resource/plugin/font-awesome/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="/qntcloud/resource/css/public/awesome.css?v=2003182020" />
+<link type="text/css" rel="stylesheet" href="/qntcloud/resource/css/public/public.min.css?v=2003182020" />
+		<script type="text/javascript" src="/qntcloud/resource/plugin/jquery/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="/qntcloud/resource/plugin/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="/qntcloud/resource/plugin/jquery-plugin/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="/qntcloud/resource/plugin/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/qntcloud/resource/plugin/requirejs/require.min.js"></script>
+
+<!-- 设置全局变量 -->
+<div id="head-global" class="hidden"
+	data-contextpath="/qntcloud"
+	data-minsuffix=".min" 
+	data-version="2003182020">
+</div>
+
+<script type="text/javascript" src="/qntcloud/resource/js/requirejs-init.js?v=2003182020"></script><title>个人中心</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link type="text/css" rel="stylesheet" href="/qntcloud/resource/plugin/jquery-imgareaselect/distfiles/css/imgareaselect-default.css" />
+	<link type="text/css" rel="stylesheet" href="/qntcloud/resource/plugin/jquery-datatables/media/css/jquery.dataTables.min.css">
+	<link type="text/css" rel="stylesheet" href="/qntcloud/resource/css/user/reset-passwd.css?v=2003182020" />
+	<link type="text/css" rel="stylesheet" href="/qntcloud/resource/css/set.css?v=2003182020" />
+	<link type="text/css" rel="stylesheet" href="/qntcloud/resource/css/research/invite-user.css?v=2003182020" />
+	
+    <link type="text/css" rel="stylesheet" href="/qntcloud/resource/plugin/alertifycs/css/alertifycs.css">
+</head>
+<body>
+	<div class="height-all vbox">
+	<div id="topDiv" class="topDiv">
+	<!--[if lt IE 10]>
+	<button type="button" class="close">
+		<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="browser-warn">
+		<p>您使用的浏览器版本过低，无法正常使用万矿网</p>
+		<p>推荐使用<a href="http://www.firefox.com.cn/download/">FireFox</a>、<a href="http://rj.baidu.com/soft/detail/14744.html">Chrome</a>或者<a href="https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads">IE10</a>以上的浏览器</p>
+	</div>
+	<![endif]-->
+	
+	<noscript>
+		<div class="browser-warn">
+			<p>万矿网需要JavaScript才能正常运行<p>
+<p>请允许JavaScript后刷新页面</p></div>
+	</noscript>
+	<div id="top-global" class="hidden"
+		data-contextpath="/qntcloud"
+		data-isadminuser="false"
+		data-js-translations="{
+   &quot;domain&quot;: &quot;qntcloud&quot;,
+   &quot;locale_data&quot;: {
+      &quot;qntcloud&quot;: {
+         &quot;&quot;: {
+            &quot;domain&quot;: &quot;qntcloud&quot;,
+            &quot;plural_forms&quot;: &quot;nplurals=1; plural=0;&quot;,
+            &quot;lang&quot;: &quot;zh_CN&quot;
+         },
+         &quot;Point change&quot;: [
+            &quot;积分变动&quot;
+         ],
+         &quot;Comment&quot;: [
+            &quot;评论&quot;
+         ],
+         &quot;Delete&quot;: [
+            &quot;删除&quot;
+         ],
+         &quot;case&quot;: [
+            &quot;案例&quot;
+         ],
+         &quot;Case Template&quot;: [
+            &quot;案例模板&quot;
+         ],
+         &quot;Add Document&quot;: [
+            &quot;添加文档&quot;
+         ],
+         &quot;Close&quot;: [
+            &quot;关闭&quot;
+         ],
+         &quot;Refresh&quot;: [
+            &quot;刷新&quot;
+         ],
+         &quot;Invalid URL.&quot;: [
+            &quot;URL无效.&quot;
+         ],
+         &quot;Download attachment&quot;: [
+            &quot;下载附件&quot;
+         ],
+         &quot;Refresh Cache&quot;: [
+            &quot;刷新缓存&quot;
+         ],
+         &quot;Confirm Action&quot;: [
+            &quot;确认操作&quot;
+         ],
+         &quot;Confirm refreshing cache?&quot;: [
+            &quot;确认刷新缓存？&quot;
+         ],
+         &quot;Refreshing failed&quot;: [
+            &quot;刷新异常&quot;
+         ],
+         &quot;Operation cancelled&quot;: [
+            &quot;取消操作&quot;
+         ],
+         &quot;No content, stay tuned...&quot;: [
+            &quot;没有内容，敬请期待...&quot;
+         ],
+         &quot;Contents&quot;: [
+            &quot;目录&quot;
+         ],
+         &quot;Go to my research&quot;: [
+            &quot;去我的研究中查看&quot;
+         ],
+         &quot;Cloned successfully&quot;: [
+            &quot;克隆成功&quot;
+         ],
+         &quot;Failed to clone the notebook&quot;: [
+            &quot;克隆Notebook失败&quot;
+         ],
+         &quot;Failed to add %s&quot;: [
+            &quot;添加%s出错&quot;
+         ],
+         &quot;Upload a Notebook file&quot;: [
+            &quot;上传Notebook文件&quot;
+         ],
+         &quot;Please input a title&quot;: [
+            &quot;请输入标题&quot;
+         ],
+         &quot;Optional&quot;: [
+            &quot;可选的&quot;
+         ],
+         &quot;Title:&quot;: [
+            &quot;标题:&quot;
+         ],
+         &quot;Add %s&quot;: [
+            &quot;添加%s&quot;
+         ],
+         &quot;Only ipynb file type is supported&quot;: [
+            &quot;只支持添加ipynb类型文件&quot;
+         ],
+         &quot;Modify menu name&quot;: [
+            &quot;修改菜单名&quot;
+         ],
+         &quot;New sub-menu&quot;: [
+            &quot;新增子菜单&quot;
+         ],
+         &quot;Failed to add a menu&quot;: [
+            &quot;添加菜单异常&quot;
+         ],
+         &quot;Edit %s&quot;: [
+            &quot;编辑%s&quot;
+         ],
+         &quot;Confirm Deletion&quot;: [
+            &quot;确认删除&quot;
+         ],
+         &quot;Confirm deleting the document?&quot;: [
+            &quot;确认删除文档？&quot;
+         ],
+         &quot;Successfully deleted&quot;: [
+            &quot;删除成功&quot;
+         ],
+         &quot;Deletion failed&quot;: [
+            &quot;删除失败&quot;
+         ],
+         &quot;My Sharings&quot;: [
+            &quot;我的分享&quot;
+         ],
+         &quot;All Sharings&quot;: [
+            &quot;全部分享&quot;
+         ],
+         &quot;Confirmation&quot;: [
+            &quot;确认信息&quot;
+         ],
+         &quot;&lt;p class=\&quot;text-center padding-top-20\&quot;&gt;Are you sure you want to delete this share?&lt;/p&gt;&quot;: [
+            &quot;&lt;p class=\&quot;text-center padding-top-20\&quot;&gt;确定删除该分享吗?&lt;/p&gt;&quot;
+         ],
+         &quot;View in research page&quot;: [
+            &quot;在研究页面中查看&quot;
+         ],
+         &quot;Copy Successfully&quot;: [
+            &quot;拷贝成功&quot;
+         ],
+         &quot;Share&quot;: [
+            &quot;分享&quot;
+         ],
+         &quot;Use WeChat/Weibo to scan the QR code to get the sharing link&quot;: [
+            &quot;请用微信/微博扫一扫上图的二维码分享链接&quot;
+         ],
+         &quot;Modify my sharing in forum&quot;: [
+            &quot;修改社区分享&quot;
+         ],
+         &quot;Sharing to forum&quot;: [
+            &quot;分享到社区&quot;
+         ],
+         &quot;Modify successfully&quot;: [
+            &quot;修改成功&quot;
+         ],
+         &quot;Share successfully&quot;: [
+            &quot;分享成功&quot;
+         ],
+         &quot;Search All/My Sharings&quot;: [
+            &quot;搜索 全部/我的 分享&quot;
+         ],
+         &quot;No related content found&quot;: [
+            &quot;没有找到相关内容&quot;
+         ],
+         &quot;Reacquire&quot;: [
+            &quot;重新获取&quot;
+         ],
+         &quot;Leave&quot;: [
+            &quot;离开&quot;
+         ],
+         &quot;Stay&quot;: [
+            &quot;留下&quot;
+         ],
+         &quot;Replace&quot;: [
+            &quot;替换文件&quot;
+         ],
+         &quot;Reconnect&quot;: [
+            &quot;重新连接&quot;
+         ],
+         &quot;Confirm action&quot;: [
+            &quot;确认操作&quot;
+         ],
+         &quot;There are no notebooks running&quot;: [
+            &quot;没有正在运行的Notebook&quot;
+         ],
+         &quot;No %s&quot;: [
+            &quot;没有 %s&quot;
+         ],
+         &quot;Editing&quot;: [
+            &quot;编辑中&quot;
+         ],
+         &quot;Starting backtest&quot;: [
+            &quot;回测启动中&quot;
+         ],
+         &quot;Backtesting&quot;: [
+            &quot;正在回测&quot;
+         ],
+         &quot;Saving&quot;: [
+            &quot;正在保存&quot;
+         ],
+         &quot;Backtested&quot;: [
+            &quot;回测完成&quot;
+         ],
+         &quot;Simulating&quot;: [
+            &quot;模拟运行中&quot;
+         ],
+         &quot;Simulated&quot;: [
+            &quot;停止模拟&quot;
+         ],
+         &quot;Simulation paused&quot;: [
+            &quot;模拟暂停(未清仓)&quot;
+         ],
+         &quot;Simulation paused (position cleared)&quot;: [
+            &quot;模拟暂停(已清仓)&quot;
+         ],
+         &quot;Please input the notebook name&quot;: [
+            &quot;请输入Notebook的名字&quot;
+         ],
+         &quot;Please input the strategy name&quot;: [
+            &quot;请输入策略的名字&quot;
+         ],
+         &quot;Please input the folder name&quot;: [
+            &quot;请输入目录的名字&quot;
+         ],
+         &quot;Please input the file name&quot;: [
+            &quot;请输入文件的名字&quot;
+         ],
+         &quot;Please input a new name&quot;: [
+            &quot;请输入新的名字&quot;
+         ],
+         &quot;Please input the name&quot;: [
+            &quot;请输入的名字&quot;
+         ],
+         &quot;Please choose a folder&quot;: [
+            &quot;请选择一个目录&quot;
+         ],
+         &quot;Uploading files&quot;: [
+            &quot;正在上传文件&quot;
+         ],
+         &quot;Failed to get notebook list.&quot;: [
+            &quot;获取Notebook列表失败。&quot;
+         ],
+         &quot;Information&quot;: [
+            &quot;提示信息&quot;
+         ],
+         &quot; Please try again&quot;: [
+            &quot; 请重新尝试&quot;
+         ],
+         &quot;Running&quot;: [
+            &quot;正在运行&quot;
+         ],
+         &quot;Root&quot;: [
+            &quot;根目录&quot;
+         ],
+         &quot;Not running&quot;: [
+            &quot;未运行&quot;
+         ],
+         &quot;New Notebook&quot;: [
+            &quot;新建Notebook&quot;
+         ],
+         &quot;New Strategy&quot;: [
+            &quot;新建策略&quot;
+         ],
+         &quot;New File&quot;: [
+            &quot;新建文件&quot;
+         ],
+         &quot;If you leave the page, the program will continue to run, but the printout data of the program will not be saved. Please confirm whether to leave the page?&quot;: [
+            &quot;如果离开该页面，程序会继续运行，但是程序的打印输出信息将无法继续保存，请确认是否离开该页？&quot;
+         ],
+         &quot;The file name cannot be empty!&quot;: [
+            &quot;文件名不能为空！&quot;
+         ],
+         &quot;A file with this name already exists. Please input again!&quot;: [
+            &quot;文件名已存在，请重新输入！&quot;
+         ],
+         &quot;The file name cannot be empty&quot;: [
+            &quot;文件名不能为空&quot;
+         ],
+         &quot;&lt;div&gt;Please upload a file of a specified type: %s!&lt;/div&gt;&quot;: [
+            &quot;&lt;div&gt;请选择 %s类型的文件上传！&lt;/div&gt;&quot;
+         ],
+         &quot;, &quot;: [
+            &quot;， &quot;
+         ],
+         &quot;&lt;div&gt;File size exceeds limit!&lt;/div&gt;&quot;: [
+            &quot;&lt;div&gt;文件大小超过限制！&lt;/div&gt;&quot;
+         ],
+         &quot;Failed to upload file!&quot;: [
+            &quot;上传文件失败！&quot;
+         ],
+         &quot;File uploaded!&quot;: [
+            &quot;文件上传成功！&quot;
+         ],
+         &quot;Replace file&quot;: [
+            &quot;替换文件&quot;
+         ],
+         &quot;%s already exists, replace it?&quot;: [
+            &quot;%s  已经存在，替换么？&quot;
+         ],
+         &quot;Cancel&quot;: [
+            &quot;取消&quot;
+         ],
+         &quot;Deleting operation cannot be undone, &quot;: [
+            &quot;删除操作不可恢复，&quot;
+         ],
+         &quot;Are you sure you want to delete &lt;span class=\&quot;color-red\&quot;&gt; %s &lt;/span&gt;?&quot;: [
+            &quot;请确认删除&lt;span class=\&quot;color-red\&quot;&gt; %s &lt;/span&gt;？&quot;
+         ],
+         &quot;All content in the folder will be deleted&quot;: [
+            &quot;文件夹中所有内容都将被删除&quot;
+         ],
+         &quot;folder&quot;: [
+            &quot;目录&quot;
+         ],
+         &quot;file&quot;: [
+            &quot;文件&quot;
+         ],
+         &quot;Failed to delete the %s, please try again later&quot;: [
+            &quot;删除%s失败，请稍后重试&quot;
+         ],
+         &quot;Backtesing is not complete yet. Leave anyway?&quot;: [
+            &quot;回测还未启动成功，确认是否离开？&quot;
+         ],
+         &quot;&lt;div&gt;Only the file of a specified type: &lt;span class=\&quot;color-red\&quot;&gt;%s&lt;/span&gt; can be previewed&lt;/div&gt;&quot;: [
+            &quot;&lt;div&gt;只支持&lt;span class=\&quot;color-red\&quot;&gt; %s &lt;/span&gt;类型的文件预览&lt;/div&gt;&quot;
+         ],
+         &quot;Data preview-%s&quot;: [
+            &quot;数据预览-%s&quot;
+         ],
+         &quot;The only encoding supported in CSV file preview is &lt;span class=\&quot;color-red\&quot;&gt;UTF-8&lt;/span&gt;.&quot;: [
+            &quot;CSV文件只支持  &lt;span class=\&quot;color-red\&quot;&gt;UTF-8编码&lt;/span&gt; 格式预览&quot;
+         ],
+         &quot;Failed to preview the file&quot;: [
+            &quot;预览文件出错&quot;
+         ],
+         &quot;Try to reconnect because the connection has been disconnected due to long periods of inactivity or network reasons&quot;: [
+            &quot;因长时间未使用或网络原因连接已断开，请尝试重新连接&quot;
+         ],
+         &quot;Your memory resource usage has reached 95%. Please release the memory or upgrade resources in time to avoid affecting the work.&quot;: [
+            &quot;您的内存资源使用已达到95%，请及时释放内存或升级资源，以免影响使用&quot;
+         ],
+         &quot;Your hard disk resource usage has reached 95%. It is recommended to delete some files or upgrade resources to avoid affecting the work.&quot;: [
+            &quot;您的硬盘资源使用已达到95%，建议删除部分文件或升级资源，以免影响使用&quot;
+         ],
+         &quot;You have opened %d notebooks and reached the maximum limit. Please close the unwanted ones first.&quot;: [
+            &quot;您已经打开了 %d 个Notebook，达到最大限制，请先关闭不需要的Notebook&quot;
+         ],
+         &quot;Close All&quot;: [
+            &quot;全部关闭&quot;
+         ],
+         &quot;The authentication information expires, please log in again!&quot;: [
+            &quot;认证信息过期，请重新登录！&quot;
+         ],
+         &quot;Initializing the research environment, please wait...&quot;: [
+            &quot;正在初始化研究环境，请稍候......&quot;
+         ],
+         &quot;The template is copied. Press Ctrl+V or \&quot;right click\&quot; to paste.&quot;: [
+            &quot;复制成功，使用Ctrl+V或\&quot;右键\&quot;可进行粘贴操作&quot;
+         ],
+         &quot;Insert&quot;: [
+            &quot;插入&quot;
+         ],
+         &quot;Copy&quot;: [
+            &quot;拷贝&quot;
+         ],
+         &quot;Restarting cloud service, please wait for the operation to complete&quot;: [
+            &quot;正在重启云服务，请等待操作完成&quot;
+         ],
+         &quot;Failed to restart, please try again later&quot;: [
+            &quot;重启失败，请稍后重试&quot;
+         ],
+         &quot;Restart will close all running notebooks. Please confirm to &lt;span class=\&quot;font-15 color-red\&quot;&gt;restart the cloud service&lt;/span&gt;!&quot;: [
+            &quot;重启操作将关闭所有正在运行的Notebook，请确认&lt;span class=\&quot;font-15 color-red\&quot;&gt; 重启云服务&lt;/span&gt;？&quot;
+         ],
+         &quot;Password is reset! Redirecting to login page.&quot;: [
+            &quot;密码修改成功！即将跳转到登录界面&quot;
+         ],
+         &quot;Email or cellphone is empty!&quot;: [
+            &quot;邮箱或手机为空！&quot;
+         ],
+         &quot;Invalid email/cellphone format!&quot;: [
+            &quot;邮箱或手机格式错误！&quot;
+         ],
+         &quot;Invalid verification code!&quot;: [
+            &quot;验证码错误！&quot;
+         ],
+         &quot;Application error, please try again later!&quot;: [
+            &quot;程序错误，请稍后重试！&quot;
+         ],
+         &quot;Apply Notice&quot;: [
+            &quot;活动需知&quot;
+         ],
+         &quot;WindQuant registered users can apply for free for 3 months Wind Financial Terminal exclusive service.&quot;: [
+            &quot;万矿注册用户可免费申请3个月Wind金融终端机构版专属服务。&quot;
+         ],
+         &quot;This event is only for institutional users who have not purchased Wind Financial Terminal. Individual users cannot participate.&quot;: [
+            &quot;本次活动仅针对尚未购买Wind金融终端的机构用户，个人用户无法参加。&quot;
+         ],
+         &quot;After the application is submitted, the staff will confirm by phone within 1-3 business days. Please keep the phone open.&quot;: [
+            &quot;提交申请后，工作人员将会在1-3个工作日内进行电话确认，请保持电话畅通。&quot;
+         ],
+         &quot;If you have any questions, please contact service@windquant.com or call the hotline 021-20700866.&quot;: [
+            &quot;如有疑问，请咨询service@windquant.com或拨打活动热线021-20700866。&quot;
+         ],
+         &quot;Agree to the event notice&quot;: [
+            &quot;同意活动需知&quot;
+         ],
+         &quot;Please read and agree to the above&quot;: [
+            &quot;请阅读并同意以上内容&quot;
+         ],
+         &quot;Wind Financial Terminal Trial Application&quot;: [
+            &quot;Wind金融终端试用申请&quot;
+         ],
+         &quot;Name&quot;: [
+            &quot;姓名&quot;
+         ],
+         &quot;Phone&quot;: [
+            &quot;手机&quot;
+         ],
+         &quot;Please enter your real name&quot;: [
+            &quot;请输入真实姓名&quot;
+         ],
+         &quot;Please enter phone number&quot;: [
+            &quot;请输入手机号&quot;
+         ],
+         &quot;Co/Org name&quot;: [
+            &quot;公司/机构名称&quot;
+         ],
+         &quot;Upload business card&quot;: [
+            &quot;上传名片&quot;
+         ],
+         &quot;Please enter Co/Org name&quot;: [
+            &quot;请输入公司/机构名称&quot;
+         ],
+         &quot;Please upload business card&quot;: [
+            &quot;请上传名片&quot;
+         ],
+         &quot;Address&quot;: [
+            &quot;地址&quot;
+         ],
+         &quot;Please complete address&quot;: [
+            &quot;请输入完整地址&quot;
+         ],
+         &quot;Apply for trial&quot;: [
+            &quot;申请试用&quot;
+         ],
+         &quot;Check phone number&quot;: [
+            &quot;手机号格式不正确!&quot;
+         ],
+         &quot;Application submit successfully!&quot;: [
+            &quot;申请提交成功&quot;
+         ],
+         &quot;Description:&quot;: [
+            &quot;说明：&quot;
+         ],
+         &quot;The Notebook has &lt;span class=\&quot;illu-bold\&quot;&gt;two different&lt;/span&gt; keyboard input modes&quot;: [
+            &quot;Notebook有&lt;span class=\&quot;illu-bold\&quot;&gt;两种&lt;/span&gt;键盘输入模式&quot;
+         ],
+         &quot;1. Edit Mode&quot;: [
+            &quot;1. 编辑模式&quot;
+         ],
+         &quot;allows you to type code or text into a cell and is indicated by a light blue cell border.&quot;: [
+            &quot;单元格左侧边框为浅蓝色，单元格中有闪动的光标，可以进行Notebook快捷键操作。&quot;
+         ],
+         &quot;2. Command Mode&quot;: [
+            &quot;2. 命令模式&quot;
+         ],
+         &quot;binds the keyboard to notebook level commands and is indicated by a dark blue cell border with a blue left margin.&quot;: [
+            &quot;单元格左侧边框为深蓝色，单元格中没有闪动的光标，可以进行Notebook快捷操作。&quot;
+         ],
+         &quot;General shortcuts (cells, editors)&quot;: [
+            &quot;通用快捷键（单元格、编辑器）&quot;
+         ],
+         &quot;exit edit status&quot;: [
+            &quot;退出编辑状态&quot;
+         ],
+         &quot;save and checkpoint&quot;: [
+            &quot;文件存盘&quot;
+         ],
+         &quot;run selected cells&quot;: [
+            &quot;运行所选单元&quot;
+         ],
+         &quot;run cell, select below&quot;: [
+            &quot;运行本单元，选中下个单元&quot;
+         ],
+         &quot;run cell. insert below&quot;: [
+            &quot;运行本单元，在其下插入新单元&quot;
+         ],
+         &quot;Cell Shortcut Key (press &lt;kbd&gt;Esc&lt;/kbd&gt; to enter)&quot;: [
+            &quot;单元格快捷键（按Esc进入模式）&quot;
+         ],
+         &quot;Common commands&quot;: [
+            &quot;常用操作&quot;
+         ],
+         &quot;enter edit mode&quot;: [
+            &quot;转入编辑模式&quot;
+         ],
+         &quot;show keyboard shortcuts&quot;: [
+            &quot;显示快捷键帮助&quot;
+         ],
+         &quot;find and replace&quot;: [
+            &quot;查找和替换&quot;
+         ],
+         &quot;save and Checkpoint&quot;: [
+            &quot;文件存盘&quot;
+         ],
+         &quot;change cell to heading 1&quot;: [
+            &quot;设置1级标题&quot;
+         ],
+         &quot;change cell to heading 2&quot;: [
+            &quot;设置2级标题&quot;
+         ],
+         &quot;change cell to heading 3&quot;: [
+            &quot;设置3级标题&quot;
+         ],
+         &quot;change cell to heading 4&quot;: [
+            &quot;设置4级标题&quot;
+         ],
+         &quot;change cell to heading 5&quot;: [
+            &quot;设置5级标题&quot;
+         ],
+         &quot;change cell to heading 6&quot;: [
+            &quot;设置6级标题&quot;
+         ],
+         &quot;Insert cell&quot;: [
+            &quot;插入新单元格&quot;
+         ],
+         &quot;insert cell above&quot;: [
+            &quot;在上方插入&quot;
+         ],
+         &quot;insert cell below&quot;: [
+            &quot;在下方插入&quot;
+         ],
+         &quot;Select cell&quot;: [
+            &quot;选中单元格&quot;
+         ],
+         &quot;select cell above&quot;: [
+            &quot;选中上方单元&quot;
+         ],
+         &quot;select cell below&quot;: [
+            &quot;选中下方单元&quot;
+         ],
+         &quot;extend selected cells above&quot;: [
+            &quot;扩大选中上方单元&quot;
+         ],
+         &quot;extend selected cells below&quot;: [
+            &quot;扩大选中下方单元&quot;
+         ],
+         &quot;Cell commands&quot;: [
+            &quot;单元格操作&quot;
+         ],
+         &quot;cut selected cells&quot;: [
+            &quot;剪切选中的单元&quot;
+         ],
+         &quot;copy selected cells&quot;: [
+            &quot;复制选中的单元&quot;
+         ],
+         &quot;paste cells above&quot;: [
+            &quot;粘贴到上方单元&quot;
+         ],
+         &quot;paste cells below&quot;: [
+            &quot;粘贴到下方单元&quot;
+         ],
+         &quot;delete selected cells&quot;: [
+            &quot;删除所选单元&quot;
+         ],
+         &quot;undo cell deletion&quot;: [
+            &quot;恢复删除的单元&quot;
+         ],
+         &quot;merge selected cells, or current cell with cell below if only one cell is selected&quot;: [
+            &quot;合并所选单元，只选一个则与下方单元合并&quot;
+         ],
+         &quot;Cell type switching&quot;: [
+            &quot;单元格类型切换&quot;
+         ],
+         &quot;change cell to code&quot;: [
+            &quot;转换单元为代码&quot;
+         ],
+         &quot;change cell to markdown&quot;: [
+            &quot;转换单元为MarkDown&quot;
+         ],
+         &quot;change cell to raw&quot;: [
+            &quot;转换单元为原始文本&quot;
+         ],
+         &quot;Others&quot;: [
+            &quot;其他&quot;
+         ],
+         &quot;toggle output of selected cells&quot;: [
+            &quot;转换输出&quot;
+         ],
+         &quot;toggle line numbers&quot;: [
+            &quot;转换行号&quot;
+         ],
+         &quot;toggle output scrolling of selected cells&quot;: [
+            &quot;切换所选单元输出的滚动状态&quot;
+         ],
+         &quot;close the pager&quot;: [
+            &quot;关闭分页&quot;
+         ],
+         &quot;interrupt notebook kernel&quot;: [
+            &quot;中断Notebook内核&quot;
+         ],
+         &quot;restart notebook kernel&quot;: [
+            &quot;重启Notebook内核&quot;
+         ],
+         &quot;Scroll notebook up&quot;: [
+            &quot;向上滚动&quot;
+         ],
+         &quot;Scroll notebook down&quot;: [
+            &quot;向下滚动&quot;
+         ],
+         &quot;Edit Mode (press &lt;kbd&gt;Enter&lt;/kbd&gt; to enable)&quot;: [
+            &quot;编辑器快捷键（按Enter进入模式）&quot;
+         ],
+         &quot;enter command mode&quot;: [
+            &quot;进入命令模式&quot;
+         ],
+         &quot;code completion or indent&quot;: [
+            &quot;代码补全或缩进&quot;
+         ],
+         &quot;tooltip&quot;: [
+            &quot;提示&quot;
+         ],
+         &quot;select all&quot;: [
+            &quot;全选&quot;
+         ],
+         &quot;split cell at cursor&quot;: [
+            &quot;在光标处分拆单元&quot;
+         ],
+         &quot;Undo commands&quot;: [
+            &quot;撤销操作&quot;
+         ],
+         &quot;undo&quot;: [
+            &quot;撤销&quot;
+         ],
+         &quot;redo&quot;: [
+            &quot;恢复撤销&quot;
+         ],
+         &quot;Indetion commands&quot;: [
+            &quot;缩进操作&quot;
+         ],
+         &quot;indent&quot;: [
+            &quot;缩进&quot;
+         ],
+         &quot;dedent&quot;: [
+            &quot;解除缩进&quot;
+         ],
+         &quot;Cursor movement&quot;: [
+            &quot;光标移动&quot;
+         ],
+         &quot;move cursor up&quot;: [
+            &quot;上移或转入上一单元&quot;
+         ],
+         &quot;move cursor down&quot;: [
+            &quot;下移或转入下一单元&quot;
+         ],
+         &quot;go to cell start&quot;: [
+            &quot;跳到单元开头&quot;
+         ],
+         &quot;go to cell end&quot;: [
+            &quot;跳到单元末尾&quot;
+         ],
+         &quot;Word commands&quot;: [
+            &quot;单词操作&quot;
+         ],
+         &quot;go one word left&quot;: [
+            &quot;跳到左边一个单词字首&quot;
+         ],
+         &quot;got one word right&quot;: [
+            &quot;跳到右边一个单词字首&quot;
+         ],
+         &quot;delete word before&quot;: [
+            &quot;删除前面一个单词&quot;
+         ],
+         &quot;delete word after&quot;: [
+            &quot;删除后面一个单词&quot;
+         ],
+         &quot;Keyboard shortcuts&quot;: [
+            &quot;快捷键&quot;
+         ],
+         &quot;Start with \&quot;-40520\&quot;&quot;: [
+            &quot;\&quot;-40520\&quot; 开头&quot;
+         ],
+         &quot;General error&quot;: [
+            &quot;一般性错误&quot;
+         ],
+         &quot;Unknown error&quot;: [
+            &quot;未知性错误&quot;
+         ],
+         &quot;Internal error&quot;: [
+            &quot;内部错误&quot;
+         ],
+         &quot;Operating System related&quot;: [
+            &quot;操作系统原因&quot;
+         ],
+         &quot;No data available&quot;: [
+            &quot;没有可用数据&quot;
+         ],
+         &quot;Request timed out&quot;: [
+            &quot;请求超时&quot;
+         ],
+         &quot;Wbox error&quot;: [
+            &quot;Wbox错误&quot;
+         ],
+         &quot;Start with \&quot;-40521\&quot;&quot;: [
+            &quot;\&quot;-40521\&quot; 开头&quot;
+         ],
+         &quot;Network data storage error&quot;: [
+            &quot;网络数据存储错误&quot;
+         ],
+         &quot;Backend server is not available&quot;: [
+            &quot;后台服务器不可用&quot;
+         ],
+         &quot;Network connection failed&quot;: [
+            &quot;网络连接失败&quot;
+         ],
+         &quot;Failed to send the request&quot;: [
+            &quot;请求发送失败&quot;
+         ],
+         &quot;Failed to receive the data&quot;: [
+            &quot;数据接收失败&quot;
+         ],
+         &quot;Network error&quot;: [
+            &quot;网络错误&quot;
+         ],
+         &quot;Network timeout&quot;: [
+            &quot;网络超时&quot;
+         ],
+         &quot;Server internal error&quot;: [
+            &quot;服务器内部错误&quot;
+         ],
+         &quot;Start with \&quot;-40522\&quot;&quot;: [
+            &quot;\&quot;-40522\&quot; 开头&quot;
+         ],
+         &quot;Request input error&quot;: [
+            &quot;请求输入错误&quot;
+         ],
+         &quot;Illegal data error&quot;: [
+            &quot;非法数据错误&quot;
+         ],
+         &quot;illegal request&quot;: [
+            &quot;非法请求&quot;
+         ],
+         &quot;Invalid Wind Code&quot;: [
+            &quot;万得代码语法错误&quot;
+         ],
+         &quot;Unsupported Wind Code&quot;: [
+            &quot;不支持的万得代码&quot;
+         ],
+         &quot;Invalid indicator syntax&quot;: [
+            &quot;指标语法错误&quot;
+         ],
+         &quot;Unsupported indicator&quot;: [
+            &quot;不支持的指标&quot;
+         ],
+         &quot;Invalid index parameter syntax&quot;: [
+            &quot;指标参数语法错误&quot;
+         ],
+         &quot;Unsupported indicator parameter&quot;: [
+            &quot;不支持的指标参数&quot;
+         ],
+         &quot;Invalid date and time syntax&quot;: [
+            &quot;日期与时间语法错误&quot;
+         ],
+         &quot;Unsupported date and time&quot;: [
+            &quot;不支持的日期与时间&quot;
+         ],
+         &quot;Unsupported request parameter&quot;: [
+            &quot;不支持的请求参数&quot;
+         ],
+         &quot;Array index is out of bounds&quot;: [
+            &quot;数组下表越界&quot;
+         ],
+         &quot;Duplicated WQID&quot;: [
+            &quot;重复的WQID&quot;
+         ],
+         &quot;Request with no corresponding permission&quot;: [
+            &quot;请求无相应权限&quot;
+         ],
+         &quot;Unsupported data type&quot;: [
+            &quot;不支持的数据类型&quot;
+         ],
+         &quot;Data extraction limit exceeded&quot;: [
+            &quot;数据提取量超限&quot;
+         ],
+         &quot;w.start() is not called&quot;: [
+            &quot;没有调用w.start()&quot;
+         ],
+         &quot;Has no data permission, \n or the parameter setting of the API function does not meet the requirements&quot;: [
+            &quot;没有数据权限，\n 或是API函数的参数设置不符合规定&quot;
+         ],
+         &quot;data decoding failed&quot;: [
+            &quot;数据解码失败&quot;
+         ],
+         &quot;Backend server not available&quot;: [
+            &quot;后台服务器不可用&quot;
+         ],
+         &quot;single request is too large&quot;: [
+            &quot;单个请求提取量过大&quot;
+         ],
+         &quot;Error code&quot;: [
+            &quot;错误代码&quot;
+         ],
+         &quot;Error description&quot;: [
+            &quot;错误描述&quot;
+         ],
+         &quot;Other error message&quot;: [
+            &quot;其他错误提示&quot;
+         ],
+         &quot;Error meaning&quot;: [
+            &quot;错误含义&quot;
+         ],
+         &quot;API common error code description&quot;: [
+            &quot;API常见错误代码说明&quot;
+         ],
+         &quot;Upload app LOGO&quot;: [
+            &quot;上传应用LOGO&quot;
+         ],
+         &quot;Please choose a picture!&quot;: [
+            &quot;请选择图片！&quot;
+         ],
+         &quot;Save avatar successfully!&quot;: [
+            &quot;保存头像成功！&quot;
+         ],
+         &quot;Male&quot;: [
+            &quot;男&quot;
+         ],
+         &quot;Female&quot;: [
+            &quot;女&quot;
+         ],
+         &quot;View in my research center&quot;: [
+            &quot;去我的研究中查看&quot;
+         ],
+         &quot;Clone successfully&quot;: [
+            &quot;克隆成功&quot;
+         ],
+         &quot;{1} has already be registered&quot;: [
+            &quot;{1}已经被注册啦&quot;
+         ],
+         &quot;nickname&quot;: [
+            &quot;昵称&quot;
+         ],
+         &quot;Please enter nickname&quot;: [
+            &quot;请输入昵称&quot;
+         ],
+         &quot;The nickname cannot less than 2 characters&quot;: [
+            &quot;昵称不能少于2字符啦&quot;
+         ],
+         &quot;The nickname cannot more than 30 characters&quot;: [
+            &quot;昵称不能大于30个字符&quot;
+         ],
+         &quot;Submit information can only contain &lt;font class=\&quot;color-red\&quot;&gt;Chinese, English, number, - or __&lt;/font&gt;, please enter again&quot;: [
+            &quot;提交信息只能包含 &lt;font class=\&quot;color-red\&quot;&gt;中文、英文、数字、- 或 _&lt;/font&gt; ，请重新输入&quot;
+         ],
+         &quot;Service is abnormal, please try again later&quot;: [
+            &quot;服务异常，请稍后重试&quot;
+         ],
+         &quot;The new password cannot be the same as the current password!&quot;: [
+            &quot;新密码不能和当前密码相同！&quot;
+         ],
+         &quot;New password and confirmation password are inconsistent!&quot;: [
+            &quot;新的密码和确认密码不一致！&quot;
+         ],
+         &quot;Password must be 6-25 digits in length&quot;: [
+            &quot;密码长度必须为6-25位&quot;
+         ],
+         &quot;Password reset successfully&quot;: [
+            &quot;密码修改成功&quot;
+         ],
+         &quot;Program exception&quot;: [
+            &quot;程序发生异常&quot;
+         ],
+         &quot;User name cannot be empty&quot;: [
+            &quot;用户姓名不能为空&quot;
+         ],
+         &quot;Confirm&quot;: [
+            &quot;确认&quot;
+         ],
+         &quot;Modify&quot;: [
+            &quot;修改&quot;
+         ],
+         &quot;The nickname has already be registered&quot;: [
+            &quot;昵称已经被注册&quot;
+         ],
+         &quot;Email&quot;: [
+            &quot;邮箱&quot;
+         ],
+         &quot;Initial points anomaly&quot;: [
+            &quot;初始积分异常&quot;
+         ],
+         &quot;Saved successfully&quot;: [
+            &quot;保存成功&quot;
+         ],
+         &quot;Complete information&quot;: [
+            &quot;完善信息&quot;
+         ],
+         &quot;Advanced&quot;: [
+            &quot;高级&quot;
+         ],
+         &quot;Have&quot;: [
+            &quot;有&quot;
+         ],
+         &quot;Current points: &quot;: [
+            &quot;当前积分: &quot;
+         ],
+         &quot;Total revenue: &quot;: [
+            &quot;总收入: &quot;
+         ],
+         &quot;Total expenses: &quot;: [
+            &quot;总支出: &quot;
+         ],
+         &quot;Time&quot;: [
+            &quot;时间&quot;
+         ],
+         &quot;Operation&quot;: [
+            &quot;操作&quot;
+         ],
+         &quot;Description&quot;: [
+            &quot;描述&quot;
+         ],
+         &quot;Resources name&quot;: [
+            &quot;资源名称&quot;
+         ],
+         &quot;Resources type&quot;: [
+            &quot;资源类型&quot;
+         ],
+         &quot;Start time&quot;: [
+            &quot;开始时间&quot;
+         ],
+         &quot;Exchange month&quot;: [
+            &quot;兑换月数&quot;
+         ],
+         &quot;Ponits consumption&quot;: [
+            &quot;消费积分&quot;
+         ],
+         &quot;No relevant records&quot;: [
+            &quot;无相关记录&quot;
+         ],
+         &quot;Usable points: &quot;: [
+            &quot;可用积分: &quot;
+         ],
+         &quot;Exchange month: &quot;: [
+            &quot;兑换月数: &quot;
+         ],
+         &quot;month(s) (&quot;: [
+            &quot;个月 (&quot;
+         ],
+         &quot; ponits/month)&quot;: [
+            &quot; 积分/月&quot;
+         ],
+         &quot;Consume points: &quot;: [
+            &quot;消费积分: &quot;
+         ],
+         &quot;Current validity date: &quot;: [
+            &quot;当前权限有效期: &quot;
+         ],
+         &quot;After exchange: &quot;: [
+            &quot;兑换后有效期: &quot;
+         ],
+         &quot;After successful redemption, please wait for about 5 minutes to log out of the account and log in again before it can take effect.&quot;: [
+            &quot;兑换成功后，请等待5分钟左右后退出账号并重新登录，方可生效使用。&quot;
+         ],
+         &quot;Tip&quot;: [
+            &quot;提示&quot;
+         ],
+         &quot;Exchange advanced data permission&quot;: [
+            &quot;兑换高级数据权限&quot;
+         ],
+         &quot;Exchange 4G memory&quot;: [
+            &quot;兑换4G内存&quot;
+         ],
+         &quot;Exchange 8G memory&quot;: [
+            &quot;兑换8G内存&quot;
+         ],
+         &quot;Exchange EDB data permission&quot;: [
+            &quot;兑换EDB数据权限&quot;
+         ],
+         &quot;Exchange WST data permission&quot;: [
+            &quot;兑换WST数据权限&quot;
+         ],
+         &quot;Insufficient points&quot;: [
+            &quot;积分不足&quot;
+         ],
+         &quot;Exchange successfully! If it does not take effect immediately, try signing in again&quot;: [
+            &quot;兑换成功！若没有立即生效，请尝试重新登录&quot;
+         ],
+         &quot;&lt;p class=\&quot;color-red\&quot;&gt;Service is abnormal, please try again later&lt;/p&gt;&quot;: [
+            &quot;&lt;p class=\&quot;color-red\&quot;&gt;服务异常，请稍后重试&lt;/p&gt;&quot;
+         ],
+         &quot;Selec all/Cancel&quot;: [
+            &quot;全选/取消&quot;
+         ],
+         &quot;Mark as read&quot;: [
+            &quot;标记为已读&quot;
+         ],
+         &quot;No related information......&quot;: [
+            &quot;无相关消息......&quot;
+         ],
+         &quot;Please select an unread message&quot;: [
+            &quot;请选择未读消息&quot;
+         ],
+         &quot;Announcement&quot;: [
+            &quot;公告&quot;
+         ],
+         &quot;Notice&quot;: [
+            &quot;通知&quot;
+         ],
+         &quot;Event Comment&quot;: [
+            &quot;活动评论&quot;
+         ],
+         &quot;Course Comment&quot;: [
+            &quot;课程评论&quot;
+         ],
+         &quot;Choose&quot;: [
+            &quot;选择&quot;
+         ],
+         &quot;Check to view&quot;: [
+            &quot;点击查看&quot;
+         ],
+         &quot;Please login again&quot;: [
+            &quot;请重新登录&quot;
+         ],
+         &quot;User name&quot;: [
+            &quot;用户名&quot;
+         ],
+         &quot;Register time&quot;: [
+            &quot;注册时间&quot;
+         ],
+         &quot;Points reward&quot;: [
+            &quot;积分奖励&quot;
+         ],
+         &quot;Page _PAGE_，Total _PAGES_ page(s)&quot;: [
+            &quot;第 _PAGE_ 页，共 _PAGES_ 页&quot;
+         ],
+         &quot;No records&quot;: [
+            &quot;无记录&quot;
+         ],
+         &quot;Prev&quot;: [
+            &quot;上一步&quot;
+         ],
+         &quot;Next&quot;: [
+            &quot;下一步&quot;
+         ],
+         &quot;Copy successfully&quot;: [
+            &quot;复制成功&quot;
+         ],
+         &quot;SMS Code&quot;: [
+            &quot;短信验证码&quot;
+         ],
+         &quot;Original &quot;: [
+            &quot;原 &quot;
+         ],
+         &quot;New &quot;: [
+            &quot;新 &quot;
+         ],
+         &quot;Verification code&quot;: [
+            &quot;验证码&quot;
+         ],
+         &quot;The verification code has been sent, please check.&quot;: [
+            &quot;验证码已发送，请注意查收。&quot;
+         ],
+         &quot; is invalid!&quot;: [
+            &quot; 无效！&quot;
+         ],
+         &quot;Verification code is invalid&quot;: [
+            &quot;验证码无效&quot;
+         ],
+         &quot;Modify &quot;: [
+            &quot;修改 &quot;
+         ],
+         &quot;Invalid team/member information.&quot;: [
+            &quot;无效的团队/成员信息。&quot;
+         ],
+         &quot;Successfully joined the Quantitative Contest Team!&quot;: [
+            &quot;成功加入量化大赛团队！&quot;
+         ],
+         &quot;Update successfully!&quot;: [
+            &quot;更新成功！&quot;
+         ],
+         &quot;The current password cannot be empty!&quot;: [
+            &quot;当前密码不能为空!&quot;
+         ],
+         &quot;The new password cannot be empty!&quot;: [
+            &quot;新的密码不能为空!&quot;
+         ],
+         &quot;The password length should between 6 and 25!&quot;: [
+            &quot;密码长度为6-25位!&quot;
+         ],
+         &quot;Make sure that the password is not empty!&quot;: [
+            &quot;确认密码不能为空!&quot;
+         ],
+         &quot;The new password is the same as the current password!&quot;: [
+            &quot;新的密码和当前密码相同!&quot;
+         ],
+         &quot;Two new passwords are inconsistent&quot;: [
+            &quot;新的密码和确认密码不一致！&quot;
+         ],
+         &quot;Password has been updated!&quot;: [
+            &quot;修改密码成功!&quot;
+         ],
+         &quot;Click to load more content&quot;: [
+            &quot;点击加载更多内容&quot;
+         ],
+         &quot;No more content&quot;: [
+            &quot;没有更多内容&quot;
+         ],
+         &quot;&lt;p style=\&quot;transform: rotate(90deg); white-space: nowrap;\&quot;&gt;Not Started&lt;/p&gt;&quot;: [
+            &quot;&lt;p&gt;未开始&lt;/p&gt;&quot;
+         ],
+         &quot;&lt;p style=\&quot;transform: rotate(90deg)\&quot;&gt;Ended&lt;/p&gt;&quot;: [
+            &quot;&lt;p&gt;已结束&lt;/p&gt;&quot;
+         ],
+         &quot;&lt;p style=\&quot;transform: rotate(90deg); white-space: nowrap;\&quot;&gt;In Progress&lt;/p&gt;&quot;: [
+            &quot;&lt;p&gt;进行中&lt;/p&gt;&quot;
+         ],
+         &quot;&lt;p style=\&quot;white-space: nowrap;\&quot;&gt;Not Started&lt;/p&gt;&quot;: [
+            &quot;&lt;p&gt;未开始&lt;/p&gt;&quot;
+         ],
+         &quot;&lt;p&gt;Ended&lt;/p&gt;&quot;: [
+            &quot;&lt;p&gt;已结束&lt;/p&gt;&quot;
+         ],
+         &quot;&lt;p style=\&quot;white-space: nowrap;\&quot;&gt;In Progress&lt;/p&gt;&quot;: [
+            &quot;&lt;p&gt;进行中&lt;/p&gt;&quot;
+         ],
+         &quot;view rebate&quot;: [
+            &quot;查看回播&quot;
+         ],
+         &quot;Host an event&quot;: [
+            &quot;举办一场活动&quot;
+         ],
+         &quot;WindQuant provides you with various roadshow platforms for free&quot;: [
+            &quot;万矿免费为您提供形式多样的路演平台&quot;
+         ],
+         &quot;Consulting hotline:&quot;: [
+            &quot;咨询热线：&quot;
+         ],
+         &quot;I want to host&quot;: [
+            &quot;我要举办&quot;
+         ],
+         &quot;&lt;p style=&#39;color: #00aec7;white-space: nowrap;&#39;&gt;Not Started&lt;/p&gt;&quot;: [
+            &quot;&lt;p style=&#39;color: #00aec7;white-space: nowrap;&#39;&gt;未开始&lt;/p&gt;&quot;
+         ],
+         &quot;&lt;p style=&#39;color: #979797;white-space: nowrap;&#39;&gt;Ended&lt;/p&gt;&quot;: [
+            &quot;&lt;p style=&#39;color: #979797;white-space: nowrap;&#39;&gt;已结束&lt;/p&gt;&quot;
+         ],
+         &quot;&lt;p style=&#39;color: #FE7E17;white-space: nowrap;&#39;&gt;In Progress&lt;/p&gt;&quot;: [
+            &quot;&lt;p style=&#39;color: #FE7E17;white-space: nowrap;&#39;&gt;进行中&lt;/p&gt;&quot;
+         ],
+         &quot;Activity Type:&quot;: [
+            &quot;活动类型：&quot;
+         ],
+         &quot;Activity Time:&quot;: [
+            &quot;活动时间：&quot;
+         ],
+         &quot;Type:&quot;: [
+            &quot;类型：&quot;
+         ],
+         &quot;Time:&quot;: [
+            &quot;时间：&quot;
+         ],
+         &quot; to &quot;: [
+            &quot; 至 &quot;
+         ],
+         &quot;Organizers:&quot;: [
+            &quot;主办方：&quot;
+         ],
+         &quot;View Series&quot;: [
+            &quot;查看系列&quot;
+         ],
+         &quot;Your application has been submitted, and we will contact you later!&quot;: [
+            &quot;您的申请已经提交，后续我们将与您联系！&quot;
+         ],
+         &quot;your input cannot be empty！&quot;: [
+            &quot;输入内容不能为空&quot;
+         ],
+         &quot;Please input the correct phone number！&quot;: [
+            &quot;请输入正确的手机号码&quot;
+         ],
+         &quot;Please input the correct Email address！&quot;: [
+            &quot;请输入正确的邮箱地址&quot;
+         ],
+         &quot;Registration failed! Please contact the administrator&quot;: [
+            &quot;报名失败！请联系管理员&quot;
+         ],
+         &quot;prompt&quot;: [
+            &quot;提示&quot;
+         ],
+         &quot;1.please input your name:&quot;: [
+            &quot;1、请输入您的姓名：&quot;
+         ],
+         &quot;2.please input your phone number:&quot;: [
+            &quot;2、请输入您的手机号码：&quot;
+         ],
+         &quot;3.please input your Email Address:&quot;: [
+            &quot;3、请输入您的Email：&quot;
+         ],
+         &quot;4.please input your Company:&quot;: [
+            &quot;4、请输入您的公司：&quot;
+         ],
+         &quot;Registration form of Wind online activities&quot;: [
+            &quot;万得线上活动报名表&quot;
+         ],
+         &quot;4.Please input the name of the institution/school you belong to:&quot;: [
+            &quot;4.请输入您所属机构/学校名称：&quot;
+         ],
+         &quot;Congratulations，successful registration！&quot;: [
+            &quot;恭喜您，报名成功！&quot;
+         ],
+         &quot;&lt;span&gt;After the meeting starts please click&lt;/span&gt;&quot;: [
+            &quot;&lt;span&gt;请在会议开始后点击&lt;/span&gt;&quot;
+         ],
+         &quot;&lt;strong style=&#39;color: black&#39;&gt;listen now&lt;/strong&gt;&quot;: [
+            &quot;&lt;strong style=&#39;color: black&#39;&gt;立即收听&lt;/strong&gt;&quot;
+         ],
+         &quot;&lt;span&gt;button to attend the meeting&lt;/span&gt;&quot;: [
+            &quot;&lt;span&gt;按钮参加会议&lt;/span&gt;&quot;
+         ],
+         &quot;Registration form of Wind offline activities&quot;: [
+            &quot;万得线下活动报名表&quot;
+         ],
+         &quot;&lt;span&gt;At that time,we will notify you of the registration result by phone/Email&lt;/span&gt;&quot;: [
+            &quot;&lt;span&gt;届时我们会通过电话/邮箱通知您报名结果&lt;/span&gt;&quot;
+         ],
+         &quot;4.Please input your WindQuant account(choose one of Nickname/W account):&quot;: [
+            &quot;4.请输入您的万矿账号（昵称/W账号选其一):&quot;
+         ],
+         &quot;Distance start：&quot;: [
+            &quot;距离开始：&quot;
+         ],
+         &quot;hours&quot;: [
+            &quot;时&quot;
+         ],
+         &quot;minutes&quot;: [
+            &quot; 分&quot;
+         ],
+         &quot;seconds&quot;: [
+            &quot;秒&quot;
+         ],
+         &quot;&lt;br/&gt;This activity has not yet started!&quot;: [
+            &quot;&lt;br/&gt;此活动还未开始！&quot;
+         ],
+         &quot;Registration has ended！&quot;: [
+            &quot;报名已结束&quot;
+         ],
+         &quot;reply&quot;: [
+            &quot;回复&quot;
+         ],
+         &quot;No Relevant Content!&quot;: [
+            &quot;暂无相关内容！&quot;
+         ],
+         &quot;Failed to get the notebook,please contact the administrator!&quot;: [
+            &quot;获取notebook失败，请联系管理员！&quot;
+         ],
+         &quot;Failed to turn pages,please contact the administrator！&quot;: [
+            &quot;翻页失败，请联系管理员！&quot;
+         ],
+         &quot;View in my research&quot;: [
+            &quot;去我的研究中查看&quot;
+         ],
+         &quot;Clone notebook error&quot;: [
+            &quot;克隆notebook异常&quot;
+         ],
+         &quot;Failed to get comments,please contact the administrator！&quot;: [
+            &quot;获取评论信息失败，请联系管理员！&quot;
+         ],
+         &quot;Case&quot;: [
+            &quot;案例&quot;
+         ],
+         &quot;Upload Document&quot;: [
+            &quot;上传文档&quot;
+         ],
+         &quot;Manual&quot;: [
+            &quot;手册&quot;
+         ],
+         &quot;Server error.&quot;: [
+            &quot;服务器异常。&quot;
+         ],
+         &quot;Data request failed&quot;: [
+            &quot;请求数据失败&quot;
+         ],
+         &quot;Cell&quot;: [
+            &quot;单元格&quot;
+         ],
+         &quot;Manually edit the JSON below to manipulate the metadata for this cell.&quot;: [
+            &quot;手动编辑下面的JSON代码来修改块元数据.&quot;
+         ],
+         &quot;Manually edit the JSON below to manipulate the metadata for this notebook.&quot;: [
+            &quot;手动编辑下面的JSON代码来修改界面元数据.&quot;
+         ],
+         &quot; We recommend putting custom metadata attributes in an appropriately named substructure, so they don&#39;t conflict with those of others.&quot;: [
+            &quot; 我们建议将自定义的元数据属性放入适当的子结构中，这样就不会与其他的子结构发生冲突.&quot;
+         ],
+         &quot;Edit the metadata&quot;: [
+            &quot;编辑元数据&quot;
+         ],
+         &quot;Edit Notebook Metadata&quot;: [
+            &quot;编辑界面元数据&quot;
+         ],
+         &quot;Edit Cell Metadata&quot;: [
+            &quot;编辑块元数据&quot;
+         ],
+         &quot;Edit&quot;: [
+            &quot;编辑&quot;
+         ],
+         &quot;OK&quot;: [
+            &quot;确定&quot;
+         ],
+         &quot;Apply&quot;: [
+            &quot;申请&quot;
+         ],
+         &quot;Yes&quot;: [
+            &quot;是&quot;
+         ],
+         &quot;No&quot;: [
+            &quot;否&quot;
+         ],
+         &quot;WARNING: Could not save invalid JSON.&quot;: [
+            &quot;警告: 不能保存无效的JSON.&quot;
+         ],
+         &quot;Error&quot;: [
+            &quot;错误&quot;
+         ],
+         &quot;The name cannot be empty.&quot;: [
+            &quot;名字不能为空&quot;
+         ],
+         &quot;The length of the name cannot be great than %d&quot;: [
+            &quot;长度不能大于%d&quot;
+         ],
+         &quot;Only digits, alphabets, spaces and underscores are allowed&quot;: [
+            &quot;只能包含中文、数字、字母、空格、下划线&quot;
+         ],
+         &quot;Only digits, alphabets and underscores are allowed&quot;: [
+            &quot;只能包含数字、字母、下划线&quot;
+         ],
+         &quot;Next&lt;i class=\&quot;hidden\&quot;&gt;Step&lt;/i&gt;&quot;: [
+            &quot;下一步&quot;
+         ],
+         &quot;Previous&lt;i class=\&quot;hidden\&quot;&gt;Step&lt;/i&gt;&quot;: [
+            &quot;上一步&quot;
+         ],
+         &quot;The explaination of gray indicators is &quot;: [
+            &quot;关于灰色指标的使用,请参考 &quot;
+         ],
+         &quot;Data Permission Instructions&quot;: [
+            &quot;数据权限使用说明&quot;
+         ],
+         &quot;Parameter settings&quot;: [
+            &quot;参数设置&quot;
+         ],
+         &quot;Select year:&quot;: [
+            &quot;选择年份：&quot;
+         ],
+         &quot;Select date:&quot;: [
+            &quot;选择时间：&quot;
+         ],
+         &quot;Please select a sector:&quot;: [
+            &quot;请选择板块&quot;
+         ],
+         &quot;Reporting period&quot;: [
+            &quot;报告期&quot;
+         ],
+         &quot;Q1 Report&quot;: [
+            &quot;一季报&quot;
+         ],
+         &quot;Interim Report&quot;: [
+            &quot;中报&quot;
+         ],
+         &quot;Q3 Report&quot;: [
+            &quot;三季报&quot;
+         ],
+         &quot;Annual Report&quot;: [
+            &quot;年报&quot;
+         ],
+         &quot;Select Indicator&quot;: [
+            &quot;选择指标&quot;
+         ],
+         &quot;Set Param&quot;: [
+            &quot;参数设置&quot;
+         ],
+         &quot;Generate Code&quot;: [
+            &quot;生成代码&quot;
+         ],
+         &quot;Economic Database&quot;: [
+            &quot;经济数据&quot;
+         ],
+         &quot;Parameter Definition&quot;: [
+            &quot;参数定义&quot;
+         ],
+         &quot;Regular Indicators&quot;: [
+            &quot;常规指标&quot;
+         ],
+         &quot;Quantative Factors&quot;: [
+            &quot;量化因子&quot;
+         ],
+         &quot;Sector Indicators&quot;: [
+            &quot;板块指标&quot;
+         ],
+         &quot;Indicator Interpretation&quot;: [
+            &quot;指标释义&quot;
+         ],
+         &quot;Selected Indicators&quot;: [
+            &quot;所选指标&quot;
+         ],
+         &quot;Indicator Search&quot;: [
+            &quot;指标查询&quot;
+         ],
+         &quot;Tip: Already copied to the clipboard&quot;: [
+            &quot;提示：已经复制到剪切板&quot;
+         ],
+         &quot;Copy to clipboard&quot;: [
+            &quot;复制到剪切板&quot;
+         ],
+         &quot;(Hint: use Ctrl + V or \&quot;Right click\&quot; to paste into the Notebook cell)&quot;: [
+            &quot;(提示：使用Ctrl + V或者&ldquo;右键&rdquo;可粘贴到Notebook单元格中)&quot;
+         ],
+         &quot;Daily&lt;i class=\&quot;hidden\&quot;&gt;Width1&lt;/i&gt;&quot;: [
+            &quot;日&quot;
+         ],
+         &quot;Weekly&lt;i class=\&quot;hidden\&quot;&gt;Width1&lt;/i&gt;&quot;: [
+            &quot;周&quot;
+         ],
+         &quot;Monthly&lt;i class=\&quot;hidden\&quot;&gt;Width1&lt;/i&gt;&quot;: [
+            &quot;月&quot;
+         ],
+         &quot;Quarterly&lt;i class=\&quot;hidden\&quot;&gt;Width1&lt;/i&gt;&quot;: [
+            &quot;季&quot;
+         ],
+         &quot;Semiannual&lt;i class=\&quot;hidden\&quot;&gt;Width1&lt;/i&gt;&quot;: [
+            &quot;半年&quot;
+         ],
+         &quot;Annual&lt;i class=\&quot;hidden\&quot;&gt;Width1&lt;/i&gt;&quot;: [
+            &quot;年&quot;
+         ],
+         &quot;ID&quot;: [
+            &quot;ID&quot;
+         ],
+         &quot;Type&quot;: [
+            &quot;类型&quot;
+         ],
+         &quot;Search&quot;: [
+            &quot;查找&quot;
+         ],
+         &quot;Reset&quot;: [
+            &quot;重置&quot;
+         ],
+         &quot;Selected: &quot;: [
+            &quot;已选: &quot;
+         ],
+         &quot;Add&quot;: [
+            &quot;添加&quot;
+         ],
+         &quot;Frequency&quot;: [
+            &quot;频率&quot;
+         ],
+         &quot;Unit&quot;: [
+            &quot;单位&quot;
+         ],
+         &quot;Source&quot;: [
+            &quot;来源&quot;
+         ],
+         &quot;Empty data&quot;: [
+            &quot;数据为空&quot;
+         ],
+         &quot;All&quot;: [
+            &quot;全部&quot;
+         ],
+         &quot;Chinese Macroeconomic&quot;: [
+            &quot;中国宏观经济数据&quot;
+         ],
+         &quot;Time Setting&quot;: [
+            &quot;时间设置&quot;
+         ],
+         &quot;Output as DataFrame&quot;: [
+            &quot;输出为DataFrame&quot;
+         ],
+         &quot;Start Date&quot;: [
+            &quot;开始日期&quot;
+         ],
+         &quot;End Date&quot;: [
+            &quot;截止日期&quot;
+         ],
+         &quot;Current Date&quot;: [
+            &quot;当前日期&quot;
+         ],
+         &quot;Current Time&quot;: [
+            &quot;当前时间&quot;
+         ],
+         &quot;Data List&quot;: [
+            &quot;数据列表&quot;
+         ],
+         &quot;Fields List&quot;: [
+            &quot;字段列表&quot;
+         ],
+         &quot;Code List&quot;: [
+            &quot;证券代码列表&quot;
+         ],
+         &quot;Time List&quot;: [
+            &quot;时间列表&quot;
+         ],
+         &quot;ErrorId&quot;: [
+            &quot;错误ID&quot;
+         ],
+         &quot;RequestId&quot;: [
+            &quot;请求ID&quot;
+         ],
+         &quot;Output Variables&quot;: [
+            &quot;输出变量名&quot;
+         ],
+         &quot;Run Setting&quot;: [
+            &quot;运行设置&quot;
+         ],
+         &quot;Time Filter&quot;: [
+            &quot;指定时间段&quot;
+         ],
+         &quot;Start Time&quot;: [
+            &quot;开始时间&quot;
+         ],
+         &quot;End Time&quot;: [
+            &quot;结束时间&quot;
+         ],
+         &quot;No&lt;i class=\&quot;hidden\&quot;&gt;Adjustment&lt;/i&gt;&quot;: [
+            &quot;不复权&quot;
+         ],
+         &quot;Forward&lt;i class=\&quot;hidden\&quot;&gt;Adjustment&lt;/i&gt;&quot;: [
+            &quot;前复权&quot;
+         ],
+         &quot;Backward&lt;i class=\&quot;hidden\&quot;&gt;Adjustment&lt;/i&gt;&quot;: [
+            &quot;后复权&quot;
+         ],
+         &quot;Fixed Adjustment&quot;: [
+            &quot;指定复权点&quot;
+         ],
+         &quot;PAB&quot;: [
+            &quot;平安银行&quot;
+         ],
+         &quot;TGOOD ELECTRIC&quot;: [
+            &quot;特锐德&quot;
+         ],
+         &quot;SPD BANK&quot;: [
+            &quot;浦发银行&quot;
+         ],
+         &quot;SSE Composite Index&quot;: [
+            &quot;上证综指&quot;
+         ],
+         &quot;CSI 300&quot;: [
+            &quot;沪深300&quot;
+         ],
+         &quot;ChinaAMC Growth&quot;: [
+            &quot;华夏成长&quot;
+         ],
+         &quot;ChinaAMC China 50 ETF&quot;: [
+            &quot;华夏上证50ETF&quot;
+         ],
+         &quot;50ETF&quot;: [
+            &quot;50ETF&quot;
+         ],
+         &quot;CSI 300 Futures&quot;: [
+            &quot;CFFEX沪深300期货&quot;
+         ],
+         &quot;SHFE Copper&quot;: [
+            &quot;SHFE铜&quot;
+         ],
+         &quot;CKH Holdings&quot;: [
+            &quot;长和&quot;
+         ],
+         &quot;Taiwan Cement&quot;: [
+            &quot;台泥&quot;
+         ],
+         &quot;Apple Inc.&quot;: [
+            &quot;苹果公司（APPLE）&quot;
+         ],
+         &quot;Search by initials, code. Press Enter to start&quot;: [
+            &quot;用首字母拼音、代码进行搜索，按回车开始查找&quot;
+         ],
+         &quot;Use Previous Data&quot;: [
+            &quot;沿用之前数据&quot;
+         ],
+         &quot;Null&quot;: [
+            &quot;空值&quot;
+         ],
+         &quot;Costom Value&quot;: [
+            &quot;自设数值&quot;
+         ],
+         &quot;No trading data processing&quot;: [
+            &quot;无交易数据处理&quot;
+         ],
+         &quot;Use Latest Sector Components&quot;: [
+            &quot;使用板块最新成分&quot;
+         ],
+         &quot;Use Historical Sector Components&quot;: [
+            &quot;使用历史板块成分&quot;
+         ],
+         &quot;Sector Conponent Setting&quot;: [
+            &quot;板块成分设置&quot;
+         ],
+         &quot;Support searching Pinyin initials, IDs of sectors&quot;: [
+            &quot;支持板块拼音首字母、板块ID查找&quot;
+         ],
+         &quot;Selected&quot;: [
+            &quot;选中&quot;
+         ],
+         &quot;Total:&quot;: [
+            &quot;总数:&quot;
+         ],
+         &quot;&lt;i class=\&quot;hidden\&quot;&gt;Push&lt;/i&gt;Forward&quot;: [
+            &quot;前推&quot;
+         ],
+         &quot;&lt;i class=\&quot;hidden\&quot;&gt;Push&lt;/i&gt;Backward&quot;: [
+            &quot;后推&quot;
+         ],
+         &quot;Period&quot;: [
+            &quot;周期&quot;
+         ],
+         &quot;Shanghai Stock Exchange (SSE)&quot;: [
+            &quot;上海证券交易所&quot;
+         ],
+         &quot;Shenzhen Stock Exchange&quot;: [
+            &quot;深圳证券交易所&quot;
+         ],
+         &quot;China Financial Futures Exchange&quot;: [
+            &quot;中国金融期货交易所&quot;
+         ],
+         &quot;Shanghai Futures Exchange&quot;: [
+            &quot;上海期货交易所&quot;
+         ],
+         &quot;Shanghai Gold Exchange (SGE)&quot;: [
+            &quot;上海黄金交易所&quot;
+         ],
+         &quot;Dalian Commodity Exchange&quot;: [
+            &quot;大连商品交易所&quot;
+         ],
+         &quot;Zhengzhou Commodity Exchange&quot;: [
+            &quot;郑州商品交易所&quot;
+         ],
+         &quot;Interbank Bond Market&quot;: [
+            &quot;银行间债券交易市场&quot;
+         ],
+         &quot;OTC Bond Market in Banks&quot;: [
+            &quot;银行柜台债券市场&quot;
+         ],
+         &quot;Hong Kong Exchanges and Clearing&quot;: [
+            &quot;香港交易所&quot;
+         ],
+         &quot;Taiwan Stock Exchange&quot;: [
+            &quot;台湾证券交易所&quot;
+         ],
+         &quot;New York Stock Exchange (NYSE)&quot;: [
+            &quot;纽约证券交易所&quot;
+         ],
+         &quot;NASDAQ Stock Market&quot;: [
+            &quot;纳斯达克交易所&quot;
+         ],
+         &quot;New York Commodity Exchange (COMEX)&quot;: [
+            &quot;纽约商品交易所&quot;
+         ],
+         &quot;New York Board of Trade (NYBOT)&quot;: [
+            &quot;纽约期货交易所&quot;
+         ],
+         &quot;New York Mercantile Exchange (NYMEX)&quot;: [
+            &quot;纽约商业交易所&quot;
+         ],
+         &quot;Chicago Mercantile Exchange (CME)&quot;: [
+            &quot;芝加哥商业交易所&quot;
+         ],
+         &quot;Chicago Board of Trade&quot;: [
+            &quot;芝加哥商品交易所&quot;
+         ],
+         &quot;American Stock Exchange (AMEX)&quot;: [
+            &quot;美国证券交易所&quot;
+         ],
+         &quot;Tokyo Stock Exchange&quot;: [
+            &quot;东京证券交易所&quot;
+         ],
+         &quot;London Stock Exchange&quot;: [
+            &quot;伦敦证券交易所&quot;
+         ],
+         &quot;Singapore Exchange Limited (SGX)&quot;: [
+            &quot;新加坡证券交易所&quot;
+         ],
+         &quot;Australian Securities Exchange&quot;: [
+            &quot;澳大利亚证券交易所&quot;
+         ],
+         &quot;SH-Northbound and SZ-Northbound Trading&quot;: [
+            &quot;沪股通深股通交易&quot;
+         ],
+         &quot;SH-Southbound and SZ-Southbound Trading&quot;: [
+            &quot;沪市港股通深市港股通交易&quot;
+         ],
+         &quot;Calendar Day&quot;: [
+            &quot;日历日&quot;
+         ],
+         &quot;Trading Day&quot;: [
+            &quot;交易日&quot;
+         ],
+         &quot;Week&quot;: [
+            &quot;周&quot;
+         ],
+         &quot;Month&quot;: [
+            &quot;月&quot;
+         ],
+         &quot;Quarter (Reporting Period)&quot;: [
+            &quot;季（报告期）&quot;
+         ],
+         &quot;Year&quot;: [
+            &quot;年&quot;
+         ],
+         &quot;Forward Cycle&quot;: [
+            &quot;前推周期&quot;
+         ],
+         &quot;Quarterly (Reporting Period)&quot;: [
+            &quot;季（报告期）&quot;
+         ],
+         &quot;Annualy&lt;i class=\&quot;hidden\&quot;&gt;Width1&lt;/i&gt;&quot;: [
+            &quot;年&quot;
+         ],
+         &quot;Fixed Date&quot;: [
+            &quot;固定日期&quot;
+         ],
+         &quot;Relative Date&quot;: [
+            &quot;相对日期&quot;
+         ],
+         &quot;Date Type&quot;: [
+            &quot;日期类型&quot;
+         ],
+         &quot;Work Day&quot;: [
+            &quot;工作日&quot;
+         ],
+         &quot;Exchanges&quot;: [
+            &quot;交易所&quot;
+         ],
+         &quot;Range&quot;: [
+            &quot;区间&quot;
+         ],
+         &quot;Total: &quot;: [
+            &quot;总数:&quot;
+         ],
+         &quot;SWS Sectors&quot;: [
+            &quot;申万一级行业&quot;
+         ],
+         &quot;WIND Sectors&quot;: [
+            &quot;Wind一级行业&quot;
+         ],
+         &quot;CITIC Sectors&quot;: [
+            &quot;中信一级行业&quot;
+         ],
+         &quot;(Obsolete) Guosen Sectors&quot;: [
+            &quot;（停止）国信行业&quot;
+         ],
+         &quot;Industry Sectors&lt;i class=\&quot;hidden&gt;1&lt;i&gt;&quot;: [
+            &quot;一级行业&quot;
+         ],
+         &quot;Industry Groups&lt;i class=\&quot;hidden&gt;2&lt;i&gt;&quot;: [
+            &quot;二级行业&quot;
+         ],
+         &quot;Industries&lt;i class=\&quot;hidden&gt;3&lt;i&gt;&quot;: [
+            &quot;三级行业&quot;
+         ],
+         &quot;Sub-Industries&lt;i class=\&quot;hidden&gt;4&lt;i&gt;&quot;: [
+            &quot;四级行业&quot;
+         ],
+         &quot;All Details&quot;: [
+            &quot;全部明细&quot;
+         ],
+         &quot;Conventional&quot;: [
+            &quot;常规&quot;
+         ],
+         &quot;Quant Factors&quot;: [
+            &quot;量化因子&quot;
+         ],
+         &quot;Search function name, indicator name or pinyin&quot;: [
+            &quot;支持函数名称、指标中文名称和拼音查找&quot;
+         ],
+         &quot;Remove&quot;: [
+            &quot;删除&quot;
+         ],
+         &quot;Remove All&quot;: [
+            &quot;全部删除&quot;
+         ],
+         &quot;&lt;i class=\&quot;hidden\&quot;&gt;Indicator&lt;/i&gt;Name&quot;: [
+            &quot;名称&quot;
+         ],
+         &quot;Field&quot;: [
+            &quot;字段&quot;
+         ],
+         &quot;Parameter&quot;: [
+            &quot;参数&quot;
+         ],
+         &quot;Application Range&quot;: [
+            &quot;适用范围&quot;
+         ],
+         &quot;Stock&quot;: [
+            &quot;股票&quot;
+         ],
+         &quot;Bond&quot;: [
+            &quot;债券&quot;
+         ],
+         &quot;Fund&quot;: [
+            &quot;基金&quot;
+         ],
+         &quot;Futures&quot;: [
+            &quot;期货&quot;
+         ],
+         &quot;Rate&quot;: [
+            &quot;利率&quot;
+         ],
+         &quot;Abroad&quot;: [
+            &quot;海外&quot;
+         ],
+         &quot;Index&quot;: [
+            &quot;指数&quot;
+         ],
+         &quot;EDB&quot;: [
+            &quot;EDB&quot;
+         ],
+         &quot;Currency&quot;: [
+            &quot;货币&quot;
+         ],
+         &quot;Original (ORIG)&quot;: [
+            &quot;原始货币（ORIG）&quot;
+         ],
+         &quot;CNY (CNY)&quot;: [
+            &quot;人民币（CNY）&quot;
+         ],
+         &quot;USD (USD)&quot;: [
+            &quot;美元（USD）&quot;
+         ],
+         &quot;HKD (HKD)&quot;: [
+            &quot;港币（HKD）&quot;
+         ],
+         &quot;Price Adjustment&quot;: [
+            &quot;价格修正&quot;
+         ],
+         &quot;Adjustment (For Stock, Fund)&quot;: [
+            &quot;复权方式（适用股票基金）&quot;
+         ],
+         &quot;Price Type (For Bond)&quot;: [
+            &quot;价格类型（适用债券）&quot;
+         ],
+         &quot;No&lt;i class=\&quot;hide\&quot;&gt;Adjustment&lt;/i&gt;&quot;: [
+            &quot;不复权&quot;
+         ],
+         &quot;Fixed (Only for indicators supports it)&quot;: [
+            &quot;定点复权（仅用于支持定点复权指标）&quot;
+         ],
+         &quot;Net Price&quot;: [
+            &quot;净价&quot;
+         ],
+         &quot;Full Price&quot;: [
+            &quot;全价&quot;
+         ],
+         &quot;Market Price&quot;: [
+            &quot;市价&quot;
+         ],
+         &quot;Yield Ratio&quot;: [
+            &quot;收益率&quot;
+         ],
+         &quot;Param Name&quot;: [
+            &quot;指标名称&quot;
+         ],
+         &quot;Chinese Name&quot;: [
+            &quot;中文名称&quot;
+         ],
+         &quot;Parameter Value&quot;: [
+            &quot;参数值&quot;
+         ],
+         &quot;Parameter Interpretation&quot;: [
+            &quot;参数值释义&quot;
+         ],
+         &quot;English Name&quot;: [
+            &quot;英文名称&quot;
+         ],
+         &quot;Search by Chinese, Pinyin initials&quot;: [
+            &quot;按中文、拼音首字母查找&quot;
+         ],
+         &quot;Param Setting&quot;: [
+            &quot;设置参数&quot;
+         ],
+         &quot;Dispaly Output Field&quot;: [
+            &quot;显示输出字段&quot;
+         ],
+         &quot;Minute(M)&quot;: [
+            &quot;分钟（M)&quot;
+         ],
+         &quot;Adjustment Mode&quot;: [
+            &quot;复权方式&quot;
+         ],
+         &quot;Cancel Single Subsription&quot;: [
+            &quot;取消单个订阅&quot;
+         ],
+         &quot;Please Input The Reqid Returned By The Subscription&quot;: [
+            &quot;（输入订阅返回的reqID数值）&quot;
+         ],
+         &quot;Cancel All Subscription&quot;: [
+            &quot;取消全部订阅&quot;
+         ],
+         &quot;Subscribe Setting&quot;: [
+            &quot;订阅设置&quot;
+         ],
+         &quot;Realtime (Subscibe)&quot;: [
+            &quot;实时（订阅）&quot;
+         ],
+         &quot;Snapshot (One Time)&quot;: [
+            &quot;快照（一次性）&quot;
+         ],
+         &quot;Optional Indicators&quot;: [
+            &quot;可选指标&quot;
+         ],
+         &quot;Input a code:&quot;: [
+            &quot;输入代码:&quot;
+         ],
+         &quot;Code Generation&quot;: [
+            &quot;生成代码&quot;
+         ],
+         &quot;Generate Date&quot;: [
+            &quot;生成日期&quot;
+         ],
+         &quot;Count Days&quot;: [
+            &quot;计算天数&quot;
+         ],
+         &quot;Date Offset&quot;: [
+            &quot;日期偏移&quot;
+         ],
+         &quot;Select Security&quot;: [
+            &quot;选择证券代码&quot;
+         ],
+         &quot;Set Time&quot;: [
+            &quot;时间设置&quot;
+         ],
+         &quot;WSD Date Series&quot;: [
+            &quot;WSD 日期序列&quot;
+         ],
+         &quot;Select Sector&quot;: [
+            &quot;选择板块&quot;
+         ],
+         &quot;Sector Center&quot;: [
+            &quot;板块多维数据&quot;
+         ],
+         &quot;Sector Series&quot;: [
+            &quot;板块序列数据&quot;
+         ],
+         &quot;WSET Data Set&quot;: [
+            &quot;WSET 数据集&quot;
+         ],
+         &quot;WSI Intraday Series&quot;: [
+            &quot;WSI 分钟序列&quot;
+         ],
+         &quot;WSQ Realtime Quotes&quot;: [
+            &quot;WSQ 实时行情&quot;
+         ],
+         &quot;Cancel Quotes Subscription&quot;: [
+            &quot;取消行情订阅&quot;
+         ],
+         &quot;Support searching by Pinyin initials, IDs of sectors&quot;: [
+            &quot;支持板块拼音首字母、板块ID查找&quot;
+         ],
+         &quot;Sector ID&quot;: [
+            &quot;板块ID&quot;
+         ],
+         &quot;Sector List&quot;: [
+            &quot;板块列表&quot;
+         ],
+         &quot;Search&lt;i class=\&quot;hidden&gt;Sector&lt;/i&gt;&quot;: [
+            &quot;搜索板块：&quot;
+         ],
+         &quot;Search Results (Click to Copy Sector ID):&quot;: [
+            &quot;搜索结果（单击复制板块ID）：&quot;
+         ],
+         &quot;Sector Inquiry&quot;: [
+            &quot;板块查询&quot;
+         ],
+         &quot;WSS Snapshot&quot;: [
+            &quot;WSS 多维数据&quot;
+         ],
+         &quot;WST Intraday Tick&quot;: [
+            &quot;日内跳价&quot;
+         ],
+         &quot;Submit&quot;: [
+            &quot;提交&quot;
+         ],
+         &quot;&lt;i class=\&quot;hidden\&quot;&gt;Xing&lt;/i&gt;Name&quot;: [
+            &quot;姓名&quot;
+         ],
+         &quot;name&quot;: [
+            &quot;名字&quot;
+         ],
+         &quot;&lt;i class=\&quot;hidden\&quot;&gt;Xing&lt;/i&gt;name&quot;: [
+            &quot;姓名&quot;
+         ],
+         &quot;&lt;p style=\&quot;transform: rotate(90deg)\&quot;&gt;Enrolling&lt;/p&gt;&quot;: [
+            &quot;&lt;p&gt;报名中&lt;/p&gt;&quot;
+         ],
+         &quot;Not Started&quot;: [
+            &quot;未开始&quot;
+         ],
+         &quot;Enrolling&quot;: [
+            &quot;报名中&quot;
+         ],
+         &quot;In Progress&quot;: [
+            &quot;进行中&quot;
+         ],
+         &quot;Ended&quot;: [
+            &quot;已结束&quot;
+         ],
+         &quot;Bonus&quot;: [
+            &quot;奖金&quot;
+         ],
+         &quot;Teams&quot;: [
+            &quot;参赛队伍&quot;
+         ],
+         &quot;Organizers&quot;: [
+            &quot;主办方&quot;
+         ],
+         &quot;to&quot;: [
+            &quot;至&quot;
+         ],
+         &quot;There is no match for the time being!&quot;: [
+            &quot;暂时没有比赛！&quot;
+         ],
+         &quot;Signuping&quot;: [
+            &quot;报名中&quot;
+         ],
+         &quot;Register now&quot;: [
+            &quot;立刻报名&quot;
+         ],
+         &quot;Submission factor&quot;: [
+            &quot;提交因子&quot;
+         ],
+         &quot;Match description&quot;: [
+            &quot;大赛说明&quot;
+         ],
+         &quot;Match schedule&quot;: [
+            &quot;赛程安排&quot;
+         ],
+         &quot;Reward setting&quot;: [
+            &quot;奖项设置&quot;
+         ],
+         &quot;Description and notice&quot;: [
+            &quot;说明及须知&quot;
+         ],
+         &quot;My factors&quot;: [
+            &quot;我的因子&quot;
+         ],
+         &quot;Factor ID&quot;: [
+            &quot;因子ID&quot;
+         ],
+         &quot;Factor name&quot;: [
+            &quot;因子名称&quot;
+         ],
+         &quot;Status&quot;: [
+            &quot;状态&quot;
+         ],
+         &quot;Note:The rankList is updated every day at 17:00&quot;: [
+            &quot;备注：排行榜每天17:00更新&quot;
+         ],
+         &quot;Team name&quot;: [
+            &quot;团队名称&quot;
+         ],
+         &quot;Team information&quot;: [
+            &quot;团队信息&quot;
+         ],
+         &quot;Rate of return&quot;: [
+            &quot;收益率&quot;
+         ],
+         &quot;Maximum withdrawal&quot;: [
+            &quot;最大回撤&quot;
+         ],
+         &quot;Sharpe ratio&quot;: [
+            &quot;夏普比率&quot;
+         ],
+         &quot;Simulated trading points&quot;: [
+            &quot;模拟交易评分&quot;
+         ],
+         &quot;Paper rating&quot;: [
+            &quot;论文评分&quot;
+         ],
+         &quot;Expert rating&quot;: [
+            &quot;专家评分&quot;
+         ],
+         &quot;Overall rating&quot;: [
+            &quot;综合评分&quot;
+         ],
+         &quot;&lt; Return to the rankList&quot;: [
+            &quot;&lt; 返回排行榜&quot;
+         ],
+         &quot;School name&quot;: [
+            &quot;学校名称&quot;
+         ],
+         &quot;End time&quot;: [
+            &quot;结束时间&quot;
+         ],
+         &quot;Simulated transaction&quot;: [
+            &quot;模拟交易&quot;
+         ],
+         &quot;Cumulative income&quot;: [
+            &quot;累计收益&quot;
+         ],
+         &quot;Today&#39;s income&quot;: [
+            &quot;今日收益&quot;
+         ],
+         &quot;Annualized volatility&quot;: [
+            &quot;年化波动率&quot;
+         ],
+         &quot;Yield trend&quot;: [
+            &quot;收益率走势&quot;
+         ],
+         &quot;primary&quot;: [
+            &quot;初级&quot;
+         ],
+         &quot;intermediate&quot;: [
+            &quot;中级&quot;
+         ],
+         &quot;advanced&quot;: [
+            &quot;高级&quot;
+         ],
+         &quot;Normal&quot;: [
+            &quot;正常&quot;
+         ],
+         &quot;Gray&quot;: [
+            &quot;灰显&quot;
+         ],
+         &quot;Hidden&quot;: [
+            &quot;隐藏&quot;
+         ],
+         &quot;Clone notebook Exception&quot;: [
+            &quot;克隆notebook异常&quot;
+         ],
+         &quot;Registered&quot;: [
+            &quot;您已报名&quot;
+         ],
+         &quot;Invitation code&quot;: [
+            &quot;邀请码&quot;
+         ],
+         &quot;How to get the invitation code&quot;: [
+            &quot;如何获取邀请码&quot;
+         ],
+         &quot;Institution or School&quot;: [
+            &quot;机构或学校&quot;
+         ],
+         &quot;Scan the QR code to see how to get invitation code&quot;: [
+            &quot;扫描下方二维码查看如何获取邀请码&quot;
+         ],
+         &quot;Return to Register Page&quot;: [
+            &quot;返回注册页面&quot;
+         ],
+         &quot;Register information&quot;: [
+            &quot;注册信息&quot;
+         ],
+         &quot;Invitation code cannot be empty&quot;: [
+            &quot;邀请码不能为空&quot;
+         ],
+         &quot;Invitation code is longer that 6 digits&quot;: [
+            &quot;邀请码超过6位&quot;
+         ],
+         &quot;Name cannot be empty&quot;: [
+            &quot;姓名不能为空&quot;
+         ],
+         &quot;Name is too long&quot;: [
+            &quot;姓名过长&quot;
+         ],
+         &quot;Institution/School cannot be empty&quot;: [
+            &quot;机构/学校不能为空&quot;
+         ],
+         &quot;Phone number cannot be empty&quot;: [
+            &quot;电话号码不能为空&quot;
+         ],
+         &quot;Phone number format is incorrect&quot;: [
+            &quot;电话号码格式不正确&quot;
+         ],
+         &quot;Email cannot be empty&quot;: [
+            &quot;邮箱不能为空&quot;
+         ],
+         &quot;Email format is incorrect&quot;: [
+            &quot;邮箱格式不正确&quot;
+         ],
+         &quot;The registration information was submitted successfully&quot;: [
+            &quot;报名信息提交成功&quot;
+         ],
+         &quot;College function regist successfully &quot;: [
+            &quot;学院功能报名成功 &quot;
+         ],
+         &quot;Failed to regist in college function!&quot;: [
+            &quot;学院功能报名失败！&quot;
+         ],
+         &quot;Registration page&quot;: [
+            &quot;返回报名页面&quot;
+         ],
+         &quot;Failed to get registration status&quot;: [
+            &quot;获取报名状态失败&quot;
+         ],
+         &quot;Congratulations on passing the %s exam of WQFA!&quot;: [
+            &quot;恭喜您，通过WQFA%s认证考试！&quot;
+         ],
+         &quot;Congratulations on passing the %s exam of WQFA. The score is %s.&quot;: [
+            &quot;恭喜您，通过WQFA%s认证考试，考试成绩为%s&quot;
+         ],
+         &quot;Learning %s courses&quot;: [
+            &quot;学习%s课程&quot;
+         ],
+         &quot;Upload successfully&quot;: [
+            &quot;上传成功&quot;
+         ],
+         &quot;Upload program homework&quot;: [
+            &quot;上传编程作业&quot;
+         ],
+         &quot;Check in Research page&quot;: [
+            &quot;在研究页面中查看&quot;
+         ],
+         &quot;Please clone and submit the homework AFTRT passing the online exam of the corresponding level&quot;: [
+            &quot;请先通过相应等级的在线考试后再克隆、提交编程作业&quot;
+         ],
+         &quot;The user&#39;s container havn&#39;t start yet, please start container and try again&quot;: [
+            &quot;用户容器没有启动，请重启容器后再次尝试&quot;
+         ],
+         &quot;Failed to inquire program homework point&quot;: [
+            &quot;查询编程作业分数失败&quot;
+         ],
+         &quot;uploaded&quot;: [
+            &quot;已上传&quot;
+         ],
+         &quot;passed&quot;: [
+            &quot;已通过&quot;
+         ],
+         &quot;not pass&quot;: [
+            &quot;未通过&quot;
+         ],
+         &quot;correcting&quot;: [
+            &quot;批改中&quot;
+         ],
+         &quot;Failed to get homework controller info&quot;: [
+            &quot;获取作业控制失败&quot;
+         ],
+         &quot;permitted&quot;: [
+            &quot;可以&quot;
+         ],
+         &quot;applied&quot;: [
+            &quot;已申请&quot;
+         ],
+         &quot;Failed to query certificate infomation&quot;: [
+            &quot;获取证书信息失败&quot;
+         ],
+         &quot;Information of move out account&quot;: [
+            &quot;迁出账户信息&quot;
+         ],
+         &quot;Account&quot;: [
+            &quot;账户&quot;
+         ],
+         &quot;Password&quot;: [
+            &quot;密码&quot;
+         ],
+         &quot;Please enter account name&quot;: [
+            &quot;请输入账户名&quot;
+         ],
+         &quot;Please enter password&quot;: [
+            &quot;请输入密码&quot;
+         ],
+         &quot;Information of move in account&quot;: [
+            &quot;迁入账户信息&quot;
+         ],
+         &quot;I have read and agree to the following&quot;: [
+            &quot;我已阅读并同意以下内容&quot;
+         ],
+         &quot;When the exam records is migrated, the registration information will be migrated together.&quot;: [
+            &quot;迁移考试记录时，会将报名信息一并迁移。&quot;
+         ],
+         &quot;Once the test records is moved out, the current account test record is immediately emptied.&quot;: [
+            &quot;考试记录一旦迁出，当前账号考试记录立即被清空。&quot;
+         ],
+         &quot;Once the test records i moved out, the current account will be restored to the unresigned status.&quot;: [
+            &quot;考试记录一旦迁出，当前账号将恢复到未报名状态。&quot;
+         ],
+         &quot;If there are records in move in account, they will be overritten by current exam record.&quot;: [
+            &quot;被迁入账号如有考试记录，会被当前迁出的考试记录覆盖。&quot;
+         ],
+         &quot;Exam record migration&quot;: [
+            &quot;考试记录迁移&quot;
+         ],
+         &quot;Moving out of the exam record will clear the exam record for this account and overwrite the exam record that was moved to the account. Are you sure you want to do this?&quot;: [
+            &quot;迁出考试记录，会清空此账号的考试记录，并且覆盖掉被迁入账号的考试记录，您确定要执行此操作码？&quot;
+         ],
+         &quot;Move out successfully! If the moved account certification exam page does not display or the display is incomplete, please refresh the exam record page after 5 minutes&quot;: [
+            &quot;迁出成功！若迁出账号学院认证考试页面无相应显示或显示不完整，请5分钟后刷新考试记录页面&quot;
+         ],
+         &quot;Please provide the following information&quot;: [
+            &quot;请提供以下信息&quot;
+         ],
+         &quot;Real name&quot;: [
+            &quot;真实姓名&quot;
+         ],
+         &quot;Certificate receiving email&quot;: [
+            &quot;证书接收邮箱&quot;
+         ],
+         &quot;Paper certificate&quot;: [
+            &quot;纸质证书&quot;
+         ],
+         &quot;Need (Postage to pay)&quot;: [
+            &quot;需要（邮费到付）&quot;
+         ],
+         &quot;No need&quot;: [
+            &quot;不需要&quot;
+         ],
+         &quot;Recipient address&quot;: [
+            &quot;收件地址&quot;
+         ],
+         &quot;Please make sure that the \&quot;Real name\&quot; column is accurate and the \&quot;Real name\&quot; item will be used as the name on the certificate.&quot;: [
+            &quot;请确保&ldquo;真实姓名&rdquo;一栏准确，&ldquo;真实姓名&rdquo;项会作为证书上的姓名。&quot;
+         ],
+         &quot;After the student submits the application, the electronic certificate will be sent to the student email within 5 working days.&quot;: [
+            &quot;学员提交申请后，电子版证书会在5个工作日内发送至学员邮箱。&quot;
+         ],
+         &quot;Due to the need to make a paper certificate, the certificate will be received within one month after the application.&quot;: [
+            &quot;因纸质版证书需要进行制作，所以证书会在一个月内收到。&quot;
+         ],
+         &quot;Please ensure the accuracy of the receipt information, such as the receipt information is wrong, please contact WindQuant in time&quot;: [
+            &quot;请确保收件信息的准确性，如收件信息错误，请及时联系万矿&quot;
+         ],
+         &quot;The submitted information is the information necessary to make the certificate and will not be used for any commercial purposes&quot;: [
+            &quot;所提交信息均为指数制作所必要的信息，不会用于任何商业用途&quot;
+         ],
+         &quot;Certificate application&quot;: [
+            &quot;申请证书&quot;
+         ],
+         &quot;Please enter real name&quot;: [
+            &quot;请输入真实姓名&quot;
+         ],
+         &quot;Please enter phone number in the correct format&quot;: [
+            &quot;请输入正确格式手机号&quot;
+         ],
+         &quot;Please enter email&quot;: [
+            &quot;请输入邮箱&quot;
+         ],
+         &quot;Please enter eamil in the correct format&quot;: [
+            &quot;请输入正确格式邮箱&quot;
+         ],
+         &quot;Please enter recipient address&quot;: [
+            &quot;请输入收件地址&quot;
+         ],
+         &quot;Add certificate application successfully&quot;: [
+            &quot;添加申请证书成功&quot;
+         ],
+         &quot;Hello, certificate application is successful! &lt;br&gt;&lt;br&gt;The e-Cent has been sent to your email address, please check it, thank you&quot;: [
+            &quot;您好，证书申请成功！ &lt;br&gt;&lt;br&gt;电子证书已发送至您的邮箱，请注意查收，谢谢&quot;
+         ],
+         &quot;Failed to get homework records&quot;: [
+            &quot;获取作业记录失败&quot;
+         ],
+         &quot;Failed to get exam agenda.&quot;: [
+            &quot;获取考试安排失败。&quot;
+         ],
+         &quot;Failed to get training camp information.&quot;: [
+            &quot;获取训练营信息失败。&quot;
+         ],
+         &quot;View all tutors&quot;: [
+            &quot;查看全部导师&quot;
+         ],
+         &quot;Collapse&quot;: [
+            &quot;收起&quot;
+         ],
+         &quot;Examination time&quot;: [
+            &quot;考试时间&quot;
+         ],
+         &quot; minutes&quot;: [
+            &quot; 分钟&quot;
+         ],
+         &quot;Can participate at most &quot;: [
+            &quot;最多可参加 &quot;
+         ],
+         &quot; times&quot;: [
+            &quot; 次&quot;
+         ],
+         &quot;Failed to get the number of exams&quot;: [
+            &quot;获取考试次数失败&quot;
+         ],
+         &quot;Error record of the exam level&quot;: [
+            &quot;考试记录等级值错误&quot;
+         ],
+         &quot;Answer time&quot;: [
+            &quot;答题时间&quot;
+         ],
+         &quot;Time used&quot;: [
+            &quot;用时&quot;
+         ],
+         &quot;Correct rate&quot;: [
+            &quot;正确率&quot;
+         ],
+         &quot;Score&quot;: [
+            &quot;得分&quot;
+         ],
+         &quot;No record&quot;: [
+            &quot;无记录&quot;
+         ],
+         &quot;Wrong exam level record&quot;: [
+            &quot;考试记录等级错误&quot;
+         ],
+         &quot;Wrong course level record&quot;: [
+            &quot;课程等级值错误&quot;
+         ],
+         &quot; people have studied&quot;: [
+            &quot; 人学过&quot;
+         ],
+         &quot;Get course list error!&quot;: [
+            &quot;获取课程列表错误！&quot;
+         ],
+         &quot;Wrong exam level value&quot;: [
+            &quot;考试等级值错误&quot;
+         ],
+         &quot;You have not passed WQFA &quot;: [
+            &quot;您还未通过WQFA &quot;
+         ],
+         &quot; exam, can not learn WQFA &quot;: [
+            &quot; 考试，无法学习WQFA &quot;
+         ],
+         &quot;courses&quot;: [
+            &quot;课程&quot;
+         ],
+         &quot;please complete &quot;: [
+            &quot;请您先完成 &quot;
+         ],
+         &quot; exam first&quot;: [
+            &quot; 考试&quot;
+         ],
+         &quot;WQFA primary certification&quot;: [
+            &quot;WQFA初级认证&quot;
+         ],
+         &quot;WQFA intermediate certification&quot;: [
+            &quot;WQFA中级认证&quot;
+         ],
+         &quot;WQFA advanced certification&quot;: [
+            &quot;WQFA高级认证&quot;
+         ],
+         &quot;yes&quot;: [
+            &quot;是&quot;
+         ],
+         &quot;Please enter certificate no&quot;: [
+            &quot;请输入证书编号&quot;
+         ],
+         &quot;Please enter name&quot;: [
+            &quot;请输入姓名&quot;
+         ],
+         &quot;Certificate No&quot;: [
+            &quot;证书编号&quot;
+         ],
+         &quot;Query&quot;: [
+            &quot;查询&quot;
+         ],
+         &quot;Query results: &quot;: [
+            &quot;查询结果 &quot;
+         ],
+         &quot;No relevant certificate record, please check the certificate number&quot;: [
+            &quot;无相关证书记录，请核对证书编号&quot;
+         ],
+         &quot;Certification level&quot;: [
+            &quot;认证级别&quot;
+         ],
+         &quot;Online points&quot;: [
+            &quot;在线考试成绩&quot;
+         ],
+         &quot;Programming&quot;: [
+            &quot;编程考试成绩&quot;
+         ],
+         &quot;Passed or not&quot;: [
+            &quot;是否通过&quot;
+         ],
+         &quot;Certificate inquiry&quot;: [
+            &quot;证书查询&quot;
+         ],
+         &quot;Wrong level value&quot;: [
+            &quot;等级值错误&quot;
+         ],
+         &quot;You have already passed WQFA &quot;: [
+            &quot;您已经通过WQFA &quot;
+         ],
+         &quot;exam, no need to repead, thank you!&quot;: [
+            &quot;考试，无需重复参加，谢谢！&quot;
+         ],
+         &quot;Mutiple choice&quot;: [
+            &quot;单选&quot;
+         ],
+         &quot;Mutiple selection&quot;: [
+            &quot;多选&quot;
+         ],
+         &quot;True-false&quot;: [
+            &quot;判断&quot;
+         ],
+         &quot;Leave the exam page?&quot;: [
+            &quot;离开考试页面吗？&quot;
+         ],
+         &quot;Failed to get the exam schedule.&quot;: [
+            &quot;获取考试安排失败。&quot;
+         ],
+         &quot;Exam time %d minutes&quot;: [
+            &quot;考试时间%d分钟&quot;
+         ],
+         &quot;Failed to get the exam paper.&quot;: [
+            &quot;获取试卷失败。&quot;
+         ],
+         &quot;Mutilple choice questions&quot;: [
+            &quot;单选题&quot;
+         ],
+         &quot;Mutilple selection questions&quot;: [
+            &quot;多选题&quot;
+         ],
+         &quot;Mutilple choice (&quot;: [
+            &quot;单项选择题（&quot;
+         ],
+         &quot;Mutilple selection (&quot;: [
+            &quot;多项选择题（&quot;
+         ],
+         &quot;True-false (&quot;: [
+            &quot;判断题（&quot;
+         ],
+         &quot;points/question)&quot;: [
+            &quot;分/题）&quot;
+         ],
+         &quot;Question %d&quot;: [
+            &quot;第%d题&quot;
+         ],
+         &quot;For a total of %d questions, you have completed %d questions. Are you sure you want to hand over the paper?&quot;: [
+            &quot;共有试题%d题，您已经完成%d题。您确实要交卷吗？&quot;
+         ],
+         &quot;Hand in paper&quot;: [
+            &quot;交卷&quot;
+         ],
+         &quot;NO of Questions&lt;/th&gt;&quot;: [
+            &quot;总题数&quot;
+         ],
+         &quot;NO of Correct Answers&lt;/th&gt;&quot;: [
+            &quot;答对题数&quot;
+         ],
+         &quot;Total Score&quot;: [
+            &quot;总分&quot;
+         ],
+         &quot;This exam has a total of %s questions, a total score of %s points. You answered %s questions correctly, get %s points&quot;: [
+            &quot;本次考试共%s题，总分%s分，您做对%s题，得到%s分&quot;
+         ],
+         &quot;Return to the college homepage&quot;: [
+            &quot;返回学院首页&quot;
+         ],
+         &quot;View exam record&quot;: [
+            &quot;查看考试记录&quot;
+         ],
+         &quot;Exam score&quot;: [
+            &quot;考试成绩&quot;
+         ],
+         &quot;WQFA %s certification exam instructions&quot;: [
+            &quot;WQFA%s认证考试须知&quot;
+         ],
+         &quot;Failed to get the exam count.&quot;: [
+            &quot;获取考试次数失败。&quot;
+         ],
+         &quot;Qualified for %s courses&quot;: [
+            &quot;可获得学习%s课程的资格&quot;
+         ],
+         &quot;1. The time for this test is %s.&quot;: [
+            &quot;1. 本次考试举行时间为%s&quot;
+         ],
+         &quot;2. Each student will take at most %1$d exams, each exam time is %2$d minutes.&quot;: [
+            &quot;2. 每位学员最多进行%d次考试，每次考试时间为%d分钟&quot;
+         ],
+         &quot;3. Click on the following \&quot;Start Exam\&quot; to begin. If you withdraw from the exam, the final score will be used as the score for this exam.&quot;: [
+            &quot;3. 点击以下\\\&quot;开始考试\\\&quot;即算作一次考试，如果中途退出考试，则以最终的得分作为本次考试的得分&quot;
+         ],
+         &quot;4. This test has a total of 20 questions (2 points / questions), 10 questions (4 points / questions) and 10 questions (2 points / questions), the total score of the test paper is 100 points&quot;: [
+            &quot;4. 本次考试共有单选20题（2分/题）、多选10题（4分/题）以及判断10题（2分/题），试卷总分为100分&quot;
+         ],
+         &quot;5. The final score of the %1$s certification exam is the highest score of %2$d exams.&quot;: [
+            &quot;5. %s认证考试的最终成绩为%d次考试的最高分&quot;
+         ],
+         &quot;6. The highest score of %d exams is greater than or equal to 60 points, and the exam is qualified.&quot;: [
+            &quot;6. %d次考试的最高分大于等于60分，考试即为合格。&quot;
+         ],
+         &quot;7. The %s exams are held every month. Those who have not passed the exam should pay attention to the notice of WindQuant official website and official WeChat.&quot;: [
+            &quot;7. %s考试每月都会举行，未通过的学员请关注万矿官网和官方微信的通知&quot;
+         ],
+         &quot;You have &lt;span class=\&quot;exam-digital-class\&quot;&gt;%d&lt;/span&gt; chance to take the exam.&quot;: [
+            &quot;您还剩%d次考试机会，&quot;
+         ],
+         &quot;The count will be deducted. Please confirm to start the exam.&quot;: [
+            &quot;确认开始考试将扣除您一次考试机会，请您确认开始考试？&quot;
+         ],
+         &quot;Exam confirmation&quot;: [
+            &quot;确认考试&quot;
+         ],
+         &quot;Sorry! You have taken %d exam and have reached the maximum number of exams. You cannot continue the exam.&quot;: [
+            &quot;很抱歉！您已参加过%d次考试，已达到考试次数上限，无法继续考试。&quot;
+         ],
+         &quot;No title&quot;: [
+            &quot;无标题&quot;
+         ],
+         &quot;No relevant content found!&quot;: [
+            &quot;没有找到相关内容&quot;
+         ],
+         &quot;Help&quot;: [
+            &quot;帮助&quot;
+         ],
+         &quot;help&quot;: [
+            &quot;帮助&quot;
+         ],
+         &quot;Portfolio&quot;: [
+            &quot;投资组合&quot;
+         ],
+         &quot;Strategy&quot;: [
+            &quot;策略&quot;
+         ],
+         &quot;Restart will close all running notebooks/ Please confirm to &lt;span class=\&quot;font-15 color-red\&quot;&gt;restart the cloud service&lt;/span&gt;!&quot;: [
+            &quot;重启操作将关闭所有正在运行的Notebook，请确认&lt;span class=\&quot;font-15 color-red\&quot;&gt; 重启云服务&lt;/span&gt;？&quot;
+         ],
+         &quot;Returns:&quot;: [
+            &quot;绝对收益：&quot;
+         ],
+         &quot;Relative returns:&quot;: [
+            &quot;相对收益：&quot;
+         ],
+         &quot;Annualized returns:&quot;: [
+            &quot;年化收益：&quot;
+         ],
+         &quot;Alpha:&quot;: [
+            &quot;Alpha：&quot;
+         ],
+         &quot;Beta:&quot;: [
+            &quot;Beta：&quot;
+         ],
+         &quot;Sharpe:&quot;: [
+            &quot;Sharpe：&quot;
+         ],
+         &quot;Max drawdown:&quot;: [
+            &quot;最大回撤：&quot;
+         ],
+         &quot;Strategy backtesting result&quot;: [
+            &quot;策略回测结果&quot;
+         ],
+         &quot;Strategy net&quot;: [
+            &quot;策略净值&quot;
+         ],
+         &quot;Performance benchmark&quot;: [
+            &quot;业绩基准&quot;
+         ],
+         &quot;Save as image&quot;: [
+            &quot;保存为图片&quot;
+         ],
+         &quot;expand&darr;&quot;: [
+            &quot;展开&darr;&quot;
+         ],
+         &quot;up&uarr;&quot;: [
+            &quot;收起&uarr;&quot;
+         ],
+         &quot;&lt;label for=&#39;articleTitle&#39; style=&#39;color:#666&#39;&gt;Title: &lt;/label&gt;&quot;: [
+            &quot;&lt;label for=&#39;articleTitle&#39; style=&#39;color:#666&#39;&gt;标题: &lt;/label&gt;&quot;
+         ],
+         &quot;Please enter title&quot;: [
+            &quot;请输入标题&quot;
+         ],
+         &quot;Please choose the notebook you want to share&quot;: [
+            &quot;选择您要分享的Notebook&quot;
+         ],
+         &quot;Chosed: &quot;: [
+            &quot;已选择： &quot;
+         ],
+         &quot;Root Folder&quot;: [
+            &quot;根目录&quot;
+         ],
+         &quot;Title&quot;: [
+            &quot;标题 &quot;
+         ],
+         &quot;title&quot;: [
+            &quot;标题&quot;
+         ],
+         &quot;Please choose a notebook&quot;: [
+            &quot;请选择Notebook&quot;
+         ],
+         &quot;Verification code cannot be empty!&quot;: [
+            &quot;验证码不能为空！&quot;
+         ],
+         &quot;Nick namecannot be empty!&quot;: [
+            &quot;昵称不能为空！&quot;
+         ],
+         &quot;Invalid nick name!&quot;: [
+            &quot;昵称格式不正确!&quot;
+         ],
+         &quot;An account already exists with this nick name!&quot;: [
+            &quot;昵称已经存在！&quot;
+         ],
+         &quot;Email cannot be empty!&quot;: [
+            &quot;邮箱不能为空！&quot;
+         ],
+         &quot;Invalid email!&quot;: [
+            &quot;邮箱格式不正确!&quot;
+         ],
+         &quot;An account already exists with this email!&quot;: [
+            &quot;邮箱已存在!&quot;
+         ],
+         &quot;Phone cannot be empty!&quot;: [
+            &quot;手机不能为空！&quot;
+         ],
+         &quot;Invalid phone number!&quot;: [
+            &quot;手机号格式不正确!&quot;
+         ],
+         &quot;An account already exists with this phone number!&quot;: [
+            &quot;手机号已存在!&quot;
+         ],
+         &quot;Please enter 6~20 characters, numbers, special symbols!&quot;: [
+            &quot;请输入6~20字符、数字、特殊符号！&quot;
+         ],
+         &quot;Uploading failed&quot;: [
+            &quot;上传出错&quot;
+         ],
+         &quot;Registration succeeded, will redirect to the login page&quot;: [
+            &quot;注册成功，即将跳转到登录界面&quot;
+         ],
+         &quot;Aplication succeeded. You&#39;ll be noticed by email as soon as possible!&quot;: [
+            &quot;申请提交成功，工作人员将尽快处理并邮件通知您！&quot;
+         ],
+         &quot;The verification code has been sent, please check&quot;: [
+            &quot;验证码已发送，请注意查收&quot;
+         ],
+         &quot;Too fuzzy, another code&quot;: [
+            &quot;看不清，换一张&quot;
+         ],
+         &quot;Incorrect verification code. Please input again!&quot;: [
+            &quot;验证码错误，请重新输入！&quot;
+         ],
+         &quot;Please input the verification code&quot;: [
+            &quot;请输入图片验证码&quot;
+         ],
+         &quot;Service error, please try again later&quot;: [
+            &quot;服务异常，请稍后重试&quot;
+         ],
+         &quot;Start&lt;i class=\&quot;hidden\&quot;&gt;use&lt;/i&gt;&quot;: [
+            &quot;开始使用&quot;
+         ],
+         &quot;Addin&lt;i class=\&quot;hidden\&quot;&gt;download&lt;/i&gt;&quot;: [
+            &quot;插件下载&quot;
+         ],
+         &quot;WQFA Talents Development Plan&quot;: [
+            &quot;WQFA人才培养计划&quot;
+         ],
+         &quot;&lt;Develop financial top quantitative talents&gt;&quot;: [
+            &quot;&lt;培养金融行业高端量化人才&gt;&quot;
+         ],
+         &quot;See Details&quot;: [
+            &quot;查看详情&quot;
+         ],
+         &quot;Have no account?&quot;: [
+            &quot;没有账号，&quot;
+         ],
+         &quot;Register for free&quot;: [
+            &quot;免费注册&quot;
+         ],
+         &quot;Wind&#39;s High-end Quantitative Analysis Cloud Platform&quot;: [
+            &quot;Wind&lt;/span&gt;&lt;span class=\&quot;small\&quot;&gt;旗下&lt;/span&gt;&lt;span class=\&quot;big\&quot;&gt;高 端 量 化 分 析 云 平 台&quot;
+         ],
+         &quot;Utilize big data / cloud computing / artificial intelligence technology to explore investment opportunities in all directions&quot;: [
+            &quot;利用大数据 / 云计算 / 人工智能技术，全方位挖掘投资机会&quot;
+         ],
+         &quot;Start Research&quot;: [
+            &quot;开始研究&quot;
+         ],
+         &quot;Not logged in!&quot;: [
+            &quot;未登录！&quot;
+         ],
+         &quot;Starting container, please wait......&quot;: [
+            &quot;正在启动容器，请稍后......&quot;
+         ],
+         &quot;Error message&quot;: [
+            &quot;错误信息&quot;
+         ],
+         &quot;Prompt message&quot;: [
+            &quot;提示信息&quot;
+         ],
+         &quot;Copy Sum&quot;: [
+            &quot;拷贝总次数&quot;
+         ],
+         &quot;shared at&quot;: [
+            &quot;分享于&quot;
+         ],
+         &quot;Read num&quot;: [
+            &quot;阅读数&quot;
+         ],
+         &quot;Like&quot;: [
+            &quot;点赞&quot;
+         ],
+         &quot;Mobile Sharing&quot;: [
+            &quot;手机分享&quot;
+         ],
+         &quot;File exceeds maximum limit: &quot;: [
+            &quot;文件超过最大限制: &quot;
+         ],
+         &quot;File type does not match&quot;: [
+            &quot;文件类型不匹配&quot;
+         ],
+         &quot;Prev&lt;i class=\&quot;hidden\&quot;&gt;Page&lt;/i&gt;&quot;: [
+            &quot;上一页&quot;
+         ],
+         &quot;Next&lt;i class=\&quot;hidden\&quot;&gt;Page&lt;/i&gt;&quot;: [
+            &quot;下一页&quot;
+         ],
+         &quot;Total &quot;: [
+            &quot;共 &quot;
+         ],
+         &quot; Pages&quot;: [
+            &quot; 页&quot;
+         ],
+         &quot;To&quot;: [
+            &quot;到&quot;
+         ],
+         &quot;Page&quot;: [
+            &quot;页&quot;
+         ],
+         &quot; Page&quot;: [
+            &quot; 页&quot;
+         ],
+         &quot;Go&quot;: [
+            &quot;确定&quot;
+         ],
+         &quot;WeChat&quot;: [
+            &quot;微信&quot;
+         ],
+         &quot;Link&quot;: [
+            &quot;链接&quot;
+         ],
+         &quot;Invite friends&quot;: [
+            &quot;邀请好友&quot;
+         ],
+         &quot;Use WeChat/QQ to scan and forward to friends&quot;: [
+            &quot;使用微信/QQ扫一扫，转发给好友&quot;
+         ],
+         &quot;Friend&#39;s Email: &quot;: [
+            &quot;好友邮箱: &quot;
+         ],
+         &quot;Please enter you friend&#39;s email address&quot;: [
+            &quot;请输入好友邮箱&quot;
+         ],
+         &quot;Please copy the link below to send to your friend&quot;: [
+            &quot;复制以下链接发送给好友&quot;
+         ],
+         &quot;Copy link&quot;: [
+            &quot;复制链接&quot;
+         ],
+         &quot;Copy link successfully&quot;: [
+            &quot;复制链接成功&quot;
+         ],
+         &quot;The mailbox format is illegal, please re-enter&quot;: [
+            &quot;邮箱格式非法，请重新输入&quot;
+         ],
+         &quot;Email sent successfully&quot;: [
+            &quot;邮件发送成功&quot;
+         ],
+         &quot;Email failed to sent&quot;: [
+            &quot;邮件发送失败&quot;
+         ],
+         &quot;Please fill in the questions you have encountered in the box below, or your suggestions&quot;: [
+            &quot;请在下框中填写您遇到的问题，也可填写您的建议&quot;
+         ],
+         &quot;Upload File&quot;: [
+            &quot;上传文件&quot;
+         ],
+         &quot;Feedback&quot;: [
+            &quot;问题反馈&quot;
+         ],
+         &quot;Your feedback has been submitted successfully. We will handle it in time. Thank you!&quot;: [
+            &quot;您的反馈已提交成功，我们将及时处理，谢谢！&quot;
+         ],
+         &quot;Please provide a brief description of the feedback (within 500 words)&quot;: [
+            &quot;请简要说明反馈内容（500字以内）&quot;
+         ],
+         &quot;Please upload attachments in common formats [support txt, zip, rar, pdf, doc, docx, xls, xlsx, xlsm, xlsb, jpg, jpeg, gif, bmp, png, nb, ipynb]&quot;: [
+            &quot;请上传常用格式的附件[支持txt、zip、rar、pdf、doc、docx、xls、xlsx、xlsm、xlsb、jpg、jpeg、gif、bmp、png、nb、ipynb]&quot;
+         ],
+         &quot;File size exceeds limit: 10M&quot;: [
+            &quot;文件大小超过限制：10M&quot;
+         ],
+         &quot;Uploaded successfully&quot;: [
+            &quot;上传成功&quot;
+         ],
+         &quot;Password or verification code is empty!&quot;: [
+            &quot;密码或验证码为空！&quot;
+         ],
+         &quot;Password must be 6 to 20 digits in length!&quot;: [
+            &quot;密码长度必须为6到20位！&quot;
+         ],
+         &quot;The number of verification code digits is wrong, please check&quot;: [
+            &quot;验证码位数错误，请核对！&quot;
+         ],
+         &quot;Set the password successfully, will jump to the homepage!&quot;: [
+            &quot;设置密码成功，即将跳转到首页！&quot;
+         ],
+         &quot;Password modified successfully!&quot;: [
+            &quot;密码修改成功&quot;
+         ],
+         &quot;Password modification failed, please try again later!&quot;: [
+            &quot;密码修改失败，请稍后重试！&quot;
+         ],
+         &quot;Plese use &lt;font class=\&quot;font-18 margin-5\&quot;&gt;PC&lt;/font&gt; to login www.windquant.com&quot;: [
+            &quot;请使用&lt;font class=\&quot;font-18 margin-5\&quot;&gt;电脑&lt;/font&gt;登录 www.windquant.com 进行使用&quot;
+         ],
+         &quot;About to jump to the homepage!&quot;: [
+            &quot;即将跳转到首页！&quot;
+         ],
+         &quot;Retry({time})&quot;: [
+            &quot;重新获取({time})&quot;
+         ],
+         &quot;Current account phone: &quot;: [
+            &quot;当前账户手机：&quot;
+         ],
+         &quot;Current account email: &quot;: [
+            &quot;当前账户邮箱：&quot;
+         ],
+         &quot;Email Code&quot;: [
+            &quot;邮箱验证码&quot;
+         ],
+         &quot;New password (6-20) digits &quot;: [
+            &quot;新密码(6-20)位 &quot;
+         ],
+         &quot;Skip this step&quot;: [
+            &quot;跳过此步&quot;
+         ],
+         &quot;please enter verification code&quot;: [
+            &quot;请输入验证码&quot;
+         ],
+         &quot;Please enter the password&quot;: [
+            &quot;请输入密码&quot;
+         ],
+         &quot;Passwords are inconsistent&quot;: [
+            &quot;密码不一致&quot;
+         ],
+         &quot;Participate in Activities&quot;: [
+            &quot;参加推广活动&quot;
+         ],
+         &quot;Participate in a promotional activity&quot;: [
+            &quot;参加推广活动&quot;
+         ],
+         &quot;Added by Administrator&quot;: [
+            &quot;管理员添加积分&quot;
+         ],
+         &quot;Points added by an administrator&quot;: [
+            &quot;管理员添加积分&quot;
+         ],
+         &quot;Download API Document&quot;: [
+            &quot;下载应用案例文档&quot;
+         ],
+         &quot;Download API document&quot;: [
+            &quot;下载应用案例文档&quot;
+         ],
+         &quot;Download Attachment&quot;: [
+            &quot;下载附件&quot;
+         ],
+         &quot;Download an attachment&quot;: [
+            &quot;下载附件&quot;
+         ],
+         &quot;Attachment is Downloaded&quot;: [
+            &quot;附件被下载&quot;
+         ],
+         &quot;An attachment is downloaded&quot;: [
+            &quot;附件被下载&quot;
+         ],
+         &quot;Edit School/Organization&quot;: [
+            &quot;编辑学校或机构&quot;
+         ],
+         &quot;Edit school or orgnization&quot;: [
+            &quot;编辑学校或机构&quot;
+         ],
+         &quot;Edit Sex&quot;: [
+            &quot;编辑性别&quot;
+         ],
+         &quot;Edit sex&quot;: [
+            &quot;编辑性别&quot;
+         ],
+         &quot;First Edit Education&quot;: [
+            &quot;第一次编辑用户教育经历&quot;
+         ],
+         &quot;First edit user education experience&quot;: [
+            &quot;第一次编辑用户教育经历&quot;
+         ],
+         &quot;Edit Personal Introduction&quot;: [
+            &quot;编辑个人简介&quot;
+         ],
+         &quot;Edit personal introduction&quot;: [
+            &quot;编辑个人简介&quot;
+         ],
+         &quot;Edit Address&quot;: [
+            &quot;编辑居住地址&quot;
+         ],
+         &quot;Edit address&quot;: [
+            &quot;编辑居住地址&quot;
+         ],
+         &quot;First Edit Profession&quot;: [
+            &quot;第一次编辑用户职业经历&quot;
+         ],
+         &quot;First edit user professional experience&quot;: [
+            &quot;第一次编辑用户职业经历&quot;
+         ],
+         &quot;Upload Avatar&quot;: [
+            &quot;上传头像&quot;
+         ],
+         &quot;Upload avatar&quot;: [
+            &quot;上传头像&quot;
+         ],
+         &quot;Exchange Permission&quot;: [
+            &quot;兑换高级权限&quot;
+         ],
+         &quot;Exchange advanced permissions&quot;: [
+            &quot;兑换高级权限&quot;
+         ],
+         &quot;Get Vote&quot;: [
+            &quot;获得点赞&quot;
+         ],
+         &quot;Get a vote&quot;: [
+            &quot;获得点赞&quot;
+         ],
+         &quot;Invite Friend&quot;: [
+            &quot;邀请好友&quot;
+         ],
+         &quot;Invite a friend&quot;: [
+            &quot;邀请好友&quot;
+         ],
+         &quot;Login&quot;: [
+            &quot;登录&quot;
+         ],
+         &quot;Login everyday to earn points&quot;: [
+            &quot;每天登录获得积分&quot;
+         ],
+         &quot;Publish Comment&quot;: [
+            &quot;发表评论&quot;
+         ],
+         &quot;Publish a comment&quot;: [
+            &quot;评论文章获得积分&quot;
+         ],
+         &quot;Share Article&quot;: [
+            &quot;社区分享&quot;
+         ],
+         &quot;Share an article to the community&quot;: [
+            &quot;分享文章到社区&quot;
+         ],
+         &quot;Register&quot;: [
+            &quot;注册&quot;
+         ],
+         &quot;Initial points when register&quot;: [
+            &quot;注册获得初始积分&quot;
+         ],
+         &quot;Reduced by Administrator&quot;: [
+            &quot;管理员减少积分&quot;
+         ],
+         &quot;Points reduced by an administrator&quot;: [
+            &quot;管理员减少积分&quot;
+         ],
+         &quot;Download Document/App&quot;: [
+            &quot;下载文档或应用&quot;
+         ],
+         &quot;Download a document or application&quot;: [
+            &quot;下载文档或应用&quot;
+         ],
+         &quot;Document/App Downloaded&quot;: [
+            &quot;文档或应用被下载&quot;
+         ],
+         &quot;A document or application is downloaded&quot;: [
+            &quot;文档或应用被下载&quot;
+         ],
+         &quot;Sharing Topped&quot;: [
+            &quot;社区分享被置顶&quot;
+         ],
+         &quot;Community sharing is topped&quot;: [
+            &quot;社区分享被置顶&quot;
+         ],
+         &quot;Upload Attchment&quot;: [
+            &quot;上传附件&quot;
+         ],
+         &quot;Upload an attachment&quot;: [
+            &quot;上传附件&quot;
+         ],
+         &quot;&lt;i class=\&quot;hidden\&quot;&gt;Insert&lt;/i&gt;Case Template&quot;: [
+            &quot;插入案例模板&quot;
+         ],
+         &quot;&lt;i class=\&quot;hidden\&quot;&gt;Get&lt;/i&gt;Data API&quot;: [
+            &quot;使用API获取数据&quot;
+         ],
+         &quot;&lt;i class=\&quot;hidden\&quot;&gt;Strategy&lt;/i&gt;Backtesting&quot;: [
+            &quot;量化策略回测&quot;
+         ],
+         &quot;&lt;i class=\&quot;hidden\&quot;&gt;Program&lt;/i&gt;Debugging&quot;: [
+            &quot;程序调试&quot;
+         ],
+         &quot;Prev&lt;i class=\&quot;hidden\&quot;&gt;Step&lt;/i&gt;&quot;: [
+            &quot;上一步&quot;
+         ],
+         &quot;Already learned. Don&#39;t show up.&quot;: [
+            &quot;已学会，不再弹出&quot;
+         ],
+         &quot;User Guide&quot;: [
+            &quot;用户向导&quot;
+         ]
+      }
+   }
+}"
+		data-unreadmessages="7"
+		data-researchserver="/research"
+		data-notebookuserid="df91bf0702f44e4a87b7e1a8912c3c36"
+		data-vpnhost="null"
+		data-user=""
+		data-userid="df91bf07-02f4-4e4a-87b7-e1a8912c3c36"
+		data-username="老碳"
+		data-useremail="99617224@163.com"
+		data-userphone="18698688707"
+		data-usescore="false">
+	</div>
+<nav class="navbar navbar-default">
+	<!--[if lt IE 10]>
+	<button type="button" class="close" onclick="$(this).parent().find('.browser-warn').remove();$(this).remove();return false;">
+		<span aria-hidden="true">&times;</span>
+	</button>
+	<div class="browser-warn">
+		<p>您使用的浏览器版本过低，无法正常使用万矿网</p>
+		<p>推荐使用<a href="http://www.firefox.com.cn/download/">FireFox</a>、<a href="http://rj.baidu.com/soft/detail/14744.html">Chrome</a>或者<a href="https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads">IE10</a>以上的浏览器</p>
+	</div>
+	<![endif]-->
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a id="windquant-logo" class="navbar-brand" href="/"></a>
+	</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse" id="navbarCollapse">
+		<ul class="nav navbar-nav navbar-right">
+			<li><a id="home" href="/">首页</a></li>
+			<li><a id="research" href="/qntcloud/research">研究</a></li>
+<li><a id="community" href="/qntcloud/community">社区</a></li>
+			<li><a id="activity" href="/qntcloud/activity">活动</a></li>
+			<li><a id="contest" href="/qntcloud/contest">比赛</a></li>
+<li><a id="college" href="/qntcloud/college">学院</a></li>
+			<li><a id="template" href="/qntcloud/template">案例</a></li>
+<li><a id="assistance" href="/qntcloud/help">帮助</a></li>
+<li class="dropdown-submenu">
+				<a id="qnt_username" class="dropdown-toggle" data-toggle="dropdown">
+老碳<span id="username_down_icon" class="margin-left-5 fa fa-angle-down"></span>
+					<span id="qnt_messages"></span>
+				</a>
+				<ul id="username_menu" class="dropdown-menu">
+					<li><a id="messageTitleShow" role="menuitem" tabindex="-1"
+						href="/qntcloud/set?showType=message">
+							消息<span class="red-point margin-left-10"></span>
+						</a>
+					</li>
+					<li id="qnt_set" class="cursor-pointer">
+						<a role="menuitem" tabindex="-1">个人主页</a>
+					</li>
+					<li id="qnt_logout" class="hidden">
+						<a role="menuitem" tabindex="-1">退出</a>
+					</li>
+					<li id="qnt_relogin" class="hidden cursor-pointer">
+						<a role="menuitem" tabindex="-1">重新登录</a>
+					</li>
+				</ul>
+			</li>
+</ul>   
+
+	</div> <!-- /.navbar-collapse -->
+</nav> <!-- /.navbar -->
+</div>
+
+<script type="text/javascript" src="/qntcloud/resource/js/include/top.js?v=2003182020"></script>
+<div id="inputModal" class="modal" tabindex="-1" role="dialog">
+	<div class="modal-dialog vbox height-all">
+		<div class="modal-content margin-auto width-all">
+			<div class="modal-header bg-custom-primary">
+				<button type="button" class="close opacity-9 color-white" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h4 class="modal-title">title</h4>
+			</div>
+			<div class="modal-body font-13">
+				<div class="form-group">
+					<input type="text" value="Untitled" placeholder="名称" class="text form-control" autofocus/>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<span class="error-msg-span"></span>
+				<button class="btn btn-custom-primary min-width-80">确定</button>
+				<button class="btn min-width-80"  data-dismiss="modal">取消</button>
+			</div>
+		</div>
+	</div>
+</div><div id="uploadModal" class="modal" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
+	<div class="modal-dialog vbox height-all">
+		<div class="modal-content width-all margin-auto">
+			<div class="modal-header bg-custom-primary">
+				<h4 class="modal-title" id="msgModelTitle">正在上传文件</h4>
+			</div>
+			<div class="modal-body vbox center">
+				<input id="file2BeUploaded" type="file" name="upload" class="hidden" />
+				<input type="text" id="toFolder" name="toFolder" class="hidden" />
+				<progress value="0"></progress>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-default cancel width-80">取消</button>
+			</div>
+		</div>
+	</div>
+</div><div id="msg-modal" class="modal overflow-auto" tabindex="-1" role="dialog">
+	<div class="modal-dialog vbox height-all" >
+		<div class="modal-content width-all margin-auto">
+			<!-- 模态窗 header -->
+			<div class="modal-header bg-custom-primary">
+				<button type="button" class="close opacity-9 color-white" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="msgModelTitle"></h4>
+			</div>
+			<!-- 模态窗body -->
+			<div class="modal-body vbox">
+				<div id="msg-body" class="overflow-hidden text-center margin-auto-h box-flex1"></div>
+				<div class="countdown margin-auto width-40 height-40">
+					<div class="top-layer">
+						<div class="v-center" id="time">0</div>
+					</div>
+					<div class="margin-auto width-40 height-40">
+						<svg xmlns="http://www.w3.org/2000/svg" class="height-all width-all">
+							<g>
+								<circle id="circle" class="circle_animation" r="19" cy="20"
+									cx="20" stroke-width="2" stroke="#F35546" fill="none">
+								</circle>
+							</g>
+						</svg>
+					</div>
+				</div>
+			</div>
+			<!-- 模态窗footer -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default min-width-80 btn-primary" data-dismiss="modal">
+					关闭</button>
+			</div>
+		</div>
+	</div>
+</div><div id="customPhotoLayout" class="modal fade" tabindex="-1" role="dialog">
+	<div class="modal-dialog vbox height-all">
+		<div class="modal-content customPhoto-mainDiv margin-auto">
+			<div class="modal-header height-50">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true" class="font-28">&times;</span>
+				</button>
+				<h4 class="modal-title color-069">上传自定义头像</h4>
+			</div>
+			<div class="modal-body">
+				<div class="height-40">
+					<form id="customPhotoForm" name="customPhotoForm" enctype="multipart/form-data" action="/qntcloud/file/uploadPhoto.action" method="post">
+						<div class="float-left but-upload-div">
+							<div class="but-upload text-center">选择图片</div>
+							<input type="file" class="but-upload-file" id="uploadCustomPhoto" name="upload" />
+						</div>
+					</form>
+					<span id="customPhotoMsg" class="float-left margin-left-20 line-height-30 font-12 color-red"></span>
+					<span class="clear"></span>
+				</div>
+				<div class="height-400">
+					<progress id="uploadPrograssBar" value="0" max="100" style="width:396px; position:absolute; margin-top:180px; margin-left:3px; display:none;"></progress>
+					<div id="customPhotoDiv1"></div>
+					<div class="float-left">
+						<div id="customPhotoDiv2"></div>
+						<div class="line-height-26 font-12">135*135</div>
+						<div id="customPhotoDiv3"></div>
+						<div class="line-height-26 font-12">80*80</div>
+						<div id="customPhotoDiv4"></div>
+						<div class="line-height-26 font-12">50*50</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<input type="hidden" id="x1" value="10" />
+				<input type="hidden" id="y1" value="10" />
+				<input type="hidden" id="x2" value="145" />
+				<input type="hidden" id="y2" value="145" />
+				<input type="hidden" id="customPhotoUrl" />
+				<input type="hidden" id="imageScale" />
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-custom-primary save">保存</button>
+				<button class="btn cancel" data-dismiss="modal">取消</button>
+			</div>
+		</div>
+	</div>
+</div><div class="forum-top-wrapper">
+		<div class="forum-top font-family-yahei vbox">
+			<div class="box-flex1">
+				<ul id="tablist-ul" role="tablist" class="nav nav-tabs width-all">
+					<li role="message" class="font-14 width-150" >
+						<a data-toggle="tab" role="tab">消息中心</a>
+					</li>
+					<li role="homePage" class="font-14 width-150">
+						<a data-toggle="tab" role="tab">个人主页</a>
+					</li>
+					
+					<li role="inviteFriend" class="font-14 width-150">
+						<a data-toggle="tab" role="tab">好友邀请</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="box-flex1 vbox flex-shrink1 overflow-auto">
+		<div class="container box-flex1-auto above-foot-div">
+			<div class="tab-content" >
+				<!-- 个人主页 -->
+				<div class="home-page hidden" role="homePage">
+					<div class="first-part">
+						<div class="height-100 hidden" id="emailPhoneData"
+							data-email="99617224@163.com"
+							data-phone="18698688707">
+						</div>
+						<div class="account-head" >
+							<span id="accountInfoBtn" class="homepage-tab-btn active">账号信息</span>
+							<span id="changePwdBtn" class="homepage-tab-btn inactive">密码修改</span>
+							</div>
+						<div class="account-body"></div>
+						<div id="account-body-2" class="account-body-2">
+							<div id="top-part" class="height-all hbox" >
+								<div class="vbox">
+									<div class="show-userInfo-2 inline-block float-left box-flex1" name="bigPhotoUrl">
+										<img src="" id="userPhoto" class="user-photo-2" alt="用户头像" />
+										<div id="changePhotoBtn" class="change-photo hidden">修改头像</div>
+									</div>
+									<button class="copy-userid">复制用户ID</button>
+								</div>
+								<div class="box-flex1">
+									<div class="height-60 position-relative">
+										<a id="changeRealNameBtn" class="link" href="#">修改</a>
+										<input id="realNameInput" class="text-left" name="realName" type="text" " readonly />
+										<span>姓名：</span>
+	
+										<a id="changeNameBtn" class="link" href="#">修改</a>
+										<div id="nameTip" class="name-tip">OK</div>
+										<input id="nameInput" class="account-input inline-block text-left" name="name" type="text" readonly />
+										<span>昵称：</span>
+									</div>
+	
+									<div class="height-60">
+										<a id="changeOrgBtn" class="link" href="#">修改</a>
+										<input id="schoolOrg" class="account-input text-left" name="branchName" type="text" " readonly />
+										<span>学校/机构：</span>
+	
+										<div class="setsex vertical-middle userinfo-span inline-block text-left float-right">
+											<label class="radio-inline"><input id="sexInput1" name="sex" type="radio"  value="m" />男</label>
+											<label class="radio-inline"><input id="sexInput2" name="sex" type="radio"  value="f" />女</label>
+										</div>
+										<span>性别：</span>
+									</div>
+	
+									<div class="height-60">
+										<a id="changeDepartmentBtn" class="link" href="#">修改</a>
+										<input id="departmentInput" class="text-left" name="department" type="text" " readonly />
+										<span>院系：</span>
+	
+										<a id="changePhoneBtn" class="link" href="#">修改</a> 
+										<input id="phoneInput" name="phone" class="account-input inline-block text-left" readonly  />
+										<span>手机号：</span>
+									</div>
+									<div class="height-60">
+										<a id="changeLocateBtn" class="link" href="#">修改</a>
+										<input id="locationInput" class="account-input inline-block text-left" name="location" type="text" readonly />
+										<span>地址：</span>
+
+										<a id="changeEmailBtn" class="link" href="#">修改</a>
+										<input id="emailInput" name="email" class="account-input inline-block text-left" readonly />
+										<span>联系邮箱：</span>
+									</div>
+									<div class="height-60">
+										<a id="changeIntrBtn" class="link" href="#">修改</a>
+										<input id="introductionHomePage" class="account-input-2 inline-block text-left" name="introduction" readonly />
+										<span>个人简介：</span>
+									</div>
+									<div class="save-button-div">
+										<button type="submit" id="saveInfoBtn" class="btn btn-sm min-width-80 save-button float-right">保存</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="second-part">
+						<div class="account-head" >
+							<span id="myResourceBtn" class="homepage-tab-btn active">我的资源</span>
+							<span id="exchangeHisBtn" class="homepage-tab-btn inactive">兑换记录</span>
+						</div>
+						
+						<div class="resource-content" >
+						
+							<div id="resourceShop">
+								<div class="resource-table">
+						            <table id="resourceTable">
+						                <tr>
+						                    <th>权限名称</th>
+						                    <th>当前权限类型</th>
+						                    <th>开始时间</th>
+						                    <th>结束时间</th>
+						                    <th>操作</th>
+						                </tr>
+						                <tr class="" style="border-bottom: 3px solid #ddd;">
+						                    <td><span>数据权限（不包括EDB）</span><span id="dataPermissionDetail" class="margin-left-5 fa fa-angle-down"></span></td>
+						                    <td><span id="resourceType" class="c1">普通</span></td>
+						                    <td><span id="startTime">无</span></td>
+						                    <td><span id="endTime">无</span></td>
+						                    <td><div id="dataExchangeBtn" class="c4 exchange-btn exchange-btn-enable">兑换</div></td>
+						                </tr>
+						                <tr class="dataPermissionDetailList" id="dataPermissionDetailList">
+						                	<td colspan="5" >
+						                		<div class="dataPermissionDetail">
+						                			<div></div>
+						                			<div>WSD</div>
+						                			<div>WSS</div>
+						                			<div>WSI</div>
+						                			<div>WSQ</div>
+						                			<div>WSET</div>
+						                			<div>WSEE</div>
+						                			<div>WSED</div>
+						                			<div>PIT量化因子</div>
+						                			<div>兑换前（普通）</div>
+						                			<div>部分</div>
+						                			<div>部分</div>
+						                			<div style="color: #b91818;font-size: 0.26rem;">✘</div>
+						                			<div>部分</div>
+						                			<div>部分</div>
+						                			<div style="color: #b91818;font-size: 0.26rem;">✘</div>
+						                			<div style="color: #b91818;font-size: 0.26rem;">✘</div>
+						                			<div>部分</div>
+						                			<div>兑换后（高级）</div>
+						                			<div>全部</div>
+						                			<div>全部</div>
+						                			<div style="color: #169d60;font-size: 0.26rem;">✔</div>
+						                			<div>全部</div>
+						                			<div>全部</div>
+						                			<div style="color: #169d60;font-size: 0.26rem;">✔</div>
+						                			<div style="color: #169d60;font-size: 0.26rem;">✔</div>
+						                			<div>全部</div>
+						                		</div>
+						                	</td>
+						                </tr>
+						            <tr class="strip1">
+						                	<td><span>Tick 数据权限（WST）</span></td>
+						                    <td><span id="wstResourceType" class="c1">无</span></td>
+						                    <td><span id="wstStartTime">无</span></td>
+						                    <td><span id="wstEndTime">无</span></td>
+						                    <td><div id="wstExchangeBtn" class="c4 exchange-btn exchange-btn-enable">兑换</div></td>
+						                </tr>
+						                <tr class=" row-disable">
+						                    <td><span>内存（4G）</span></td>
+						                    <td ><span class="c1" id="memo4gType">1G</span></td>
+						                    <td><span id="memo4gStartTime">无</span></td>
+						                    <td><span id="memo4gEndTime">无</span></td>
+						                    <td><div class="c4 exchange-btn exchange-btn-disable">兑换</div></td>
+						                    </tr>
+						                <tr class="row-disable strip1">
+						                    <td><span>硬盘</span></td>
+						                    <td><span class="c1" id="storgeType">1G</span></td>
+						                    <td><span>无</span></td>
+						                    <td><span>无</span></td>
+						                    <td><div class="c5 hbox"><span class="c3"></span><div class="c4 exchange-btn exchange-btn-disable">兑换</div></div></td>
+						                </tr>
+						                
+						                
+						            </table>
+		       					</div>
+		       				</div>
+	       				
+		       				<div id="resourceHistory">
+		       					<div class="resource-table">
+		       						<table id="resourceHistoryTable"> </table>
+		       					</div>
+		       					<div id="resourceDetailPageDiv" class="width-all margin-bottom-20 float-left"></div>
+		       				</div>
+		       			</div>
+						
+					</div>
+					
+					<div class="third-part">
+						<div class="account-head">
+							<span id="scoreHisBtn" class="homepage-tab-btn active">我的积分</span>
+							<span id="myScoreBtn" class="homepage-tab-btn inactive">积分说明</span>
+						</div>
+						<div class="score-content" >
+							<div id="scoreHistory" class="score-history">
+								<ul class="score-bar-ul" style="">
+									<li id="myScore" class="score-my-score" >当前积分：</li>
+									<li id="totalRevenue" class="score-my-score">总收入：</li>
+									<li id="totalExpenditure" class="score-my-score">总支出：</li>
+								</ul>						
+								<div class="resource-table">
+									<table id="scoreHistoryTable"></table>
+								</div>
+								<div id="scoreDetailPageDiv" class="width-all margin-bottom-20 float-left"></div>
+							</div>
+							<div id="scoreRule" class="score-rule hidden">
+								<div class="resource-table">
+									<div class="rule-title">积分获取规则说明</div>
+									<table id="scoreRuleTable" >
+										<thead>
+<tr> <th>操作</th><th>积分</th><th>说明</th> </tr>
+</thead>
+<tbody>
+<tr >  
+<td>初始积分</td><td>200</td><td>用户注册即获得200积分</td>
+</tr>
+<tr class="strip1">  
+<td>社区帖子被推荐</td><td>100</td><td>社区分享帖子被管理员推荐，获赠100积分</td>
+</tr>
+<tr >
+<td>邀请好友</td><td>50</td><td>成功邀请好友注册送50积分/位</td>
+</tr>
+<tr class="strip1">
+<td>登录</td><td>20</td><td>每天登录一次获得20积分</td>
+</tr>
+<tr >
+<td>获得点赞</td><td>10</td><td>社区分享帖子被点赞，每个点赞可获得10积分</td>
+</tr>
+<tr class="strip1">
+<td>发表评论</td><td>10</td><td>评论帖子可以获得10积分，同一帖子多次评论只算一次</td>
+</tr>
+<tr >
+<td>上传头像</td><td>5</td><td>上传头像可获得5积分，仅限一次</td>
+</tr>
+<tr class="strip1">
+<td>完善资料</td><td>5</td><td>完善资料可获得5积分，仅限一次</td>
+</tr>
+</tbody></table>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+				
+				
+				<!-- 消息中心 -->
+				<div class="height-100 hidden message-center" role="message" >
+					<div><ul role="messageTablist" class="nav nav-tabs width-all">
+						<li class="active" role="allMessage">
+							<a data-toggle="tab" role="messageTab" href="#messageTabContent">全部消息<span id="allUnreadMsgNums"></span></a>
+						</li>
+						<li role="noticeMsg" class="">
+							<a data-toggle="tab" role="messageTab" href="#messageTabContent_1">公告<span id="noticeUnreadMsgNums"></span></a>
+							
+						</li>
+						<li role="informMsg" class="">
+							<a data-toggle="tab" role="messageTab" href="#messageTabContent_2">通知<span id="informUnreadMsgNums"></span></a>
+						</li>
+						<li role="commnetMsg" class="">
+							<a data-toggle="tab" role="messageTab" href="#messageTabContent_3">评论<span id="commentUnreadMsgNums"></span></a>
+						</li>
+						<li class="hidden" style="float:right" id="message_returnButton"><a href="#"><i class="fa fa-reply" >返回列表</i></a></li>
+					</ul></div>
+					<div id="messageTabContent" class="border-solid" >
+						<table id="messagesList" class="width-all"></table>
+						<div id="message_showContent" class="hidden margin-left-20 color-biggray" style="min-height:300px"></div>
+						<div id="messagePageDiv"
+							class="width-all float-left"></div>
+					</div>
+				</div>
+				<!-- 好友邀请 -->
+				<div class="height-100 hidden" role="inviteFriend">
+						<div id="friendContent" class="">
+							<div class="font-15 margin-bottom-15 width-all hbox">
+								<div class="box-flex1 text-center font-bold">成功邀请记录</div>
+								<a class="btn-invite cursor-pointer">马上邀请好友</a>
+							</div>
+							<table id="friendsList" class="width-all display"></table>
+							<div id="friendPageDiv" class="width-all margin-top-20 margin-bottom-20 float-left"></div>
+						</div>
+					</div>
+				
+				
+					
+			</div>
+		</div>
+		<div>
+			<div class="foot-div">
+	<span class="fa fa-arrow-up scroll-top hidden" title="回顶部"></span>
+	<p class="margin-0">©2018-2020&nbsp;上海万得投资管理有限公司&nbsp;
+	联系邮箱：<a href="mailto:service@windquant.com">service@windquant.com</a>
+	备案：<a href="http://www.beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">沪ICP备08006790号-3</a></p>
+</div>
+</div>
+	</div>
+</body>
+<script type="text/javascript" src="/qntcloud/resource/js/set.js?v=2003182020"></script>
+</html>
