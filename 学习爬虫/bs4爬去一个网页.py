@@ -32,7 +32,6 @@ if res.status_code==200:
         a_dict={'title':t.text.split("\n")[0],'url':i.a['href'],'author':i.strong.a.text,'date':i.span['title']}
         result_list.append(a_dict)
     #
-
 print(result_list)
 #写入数据
 with open('./data.josn','w') as fp:

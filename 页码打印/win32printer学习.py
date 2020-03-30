@@ -14,17 +14,18 @@ ulc_y = -200  # 左上Y
 lrc_x = 11350  # 右下X
 lrc_y = -11350  # 右下Y
 # # 开始打印
-# hDC.StartDoc("add page")
+hDC.StartDoc("add page")
     # 获取打印机状态
 hPrinter = win32print.OpenPrinter('HP LaserJet 1020')
 dic = win32print.GetPrinter(hPrinter, 2)
-# if dic['cJobs'] == 1:
-#     for i in range(1, 99):
-#         hDC.StartPage()
-#         hDC.SetMapMode(win32con.MM_TWIPS)
-#         hDC.DrawText(str(i), (ulc_x, ulc_y, lrc_x, lrc_y), win32con.DT_RIGHT)
-#         hDC.EndPage()
-# else:
-#     print('打印机缺纸，无法打印')
+
+for i in range(1, 3):
+    hDC.StartPage()
+    hDC.SetMapMode(win32con.MM_TWIPS)
+    hDC.DrawText(str(i), (ulc_x, ulc_y, lrc_x, lrc_y), win32con.DT_RIGHT)
+    hDC.EndPage()
+
+
 print(dic)
-# hDC.EndDoc()
+win32print.AbortPrinter(hPrinter)
+hDC.EndDoc()
