@@ -1,7 +1,7 @@
 import requests
 #定义前期参数
 data={
-    'i':'The content of the need to be translated',
+    'i':'大彪子',
     'doctype':'json'
     }
 
