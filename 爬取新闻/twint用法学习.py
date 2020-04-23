@@ -1,13 +1,16 @@
 import twint
 import time
+import datetime
 tweets=[]
+fiveminutesAgo = (datetime.datetime.now() - datetime.timedelta(minutes=10))
 c=twint.Config()
-c.Search='BREAKING NEWS'
+c.Search='#BREAKING'
 c.Count='True'
+c.Lang='en'
 c.Store_object='True'
-c.Since='2020-04-19 20:20:20'
+c.Since=fiveminutesAgo.strftime("%Y-%m-%d %H:%M:%S")
 c.Store_object_tweets_list=tweets
-c.Limit='100'
+c.Limit='1'
 # c.Translate='True'
 # c.TranslateDest='zh'
 twint.run.Search(c)
@@ -15,7 +18,7 @@ print('分割线—————————————————————�
 print('id是:'+str(tweets[0].id))
 print('conversation_id是:'+tweets[0].conversation_id)
 print('datestamp是:'+tweets[0].datestamp)
-print('datestamp是:'+tweets[0].timestamp)
+print('timestamp是:'+tweets[0].timestamp)
 print('user_id是:'+str(tweets[0].user_id))
 print('username是:'+tweets[0].username)
 print('name是:'+tweets[0].name)
