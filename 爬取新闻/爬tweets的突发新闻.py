@@ -7,11 +7,11 @@ import telegram
 bot = telegram.Bot(token='957820157:AAG2vjz1gyhrxHc07fF_orRwegX_0I1XOvc')
 tweets = []
 newspeople = []
-newsword = ['china','virus']
+newsword = ['china','virus','assault','death']
 alreadylist = []
-fiveminutesAgo = (datetime.datetime.now() - datetime.timedelta(minutes=5))
+fiveminutesAgo = (datetime.datetime.now() - datetime.timedelta(minutes=10))
 c = twint.Config()
-c.Search = ['#BREAKING']
+c.Search = 'breaking news'
 c.Count = 'True'
 c.Lang = 'en'
 c.Store_object = 'True'

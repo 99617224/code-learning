@@ -2,9 +2,9 @@ import twint
 import time
 import datetime
 tweets=[]
-fiveminutesAgo = (datetime.datetime.now() - datetime.timedelta(minutes=10))
+fiveminutesAgo = (datetime.datetime.now() - datetime.timedelta(days=10))
 c=twint.Config()
-c.Search='#BREAKING'
+c.Username='realDonaldTrump'
 c.Count='True'
 c.Lang='en'
 c.Store_object='True'
