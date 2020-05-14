@@ -16,7 +16,7 @@ lrc_y = -11350  # 右下Y
 # # 开始打印
 hDC.StartDoc("add page")
     # 获取打印机状态
-hPrinter = win32print.OpenPrinter('HP LaserJet 1020')
+hPrinter = win32print.OpenPrinter('Pantum P2500 Series')
 dic = win32print.GetPrinter(hPrinter, 2)
 
 for i in range(1, 3):
